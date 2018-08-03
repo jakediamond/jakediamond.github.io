@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+
+
+<title></title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/jqueryui-1.11.4/jquery-ui.min.js"></script>
+<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
+<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<!DOCTYPE html>
+
+<meta name="description" content="Jake Diamond's personal research website"/>
+<meta name="keywords" content="hydrology,ecology,ecohydrology,wetlands"/>
+<meta name="author" content="Jake Diamond"/>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="styles.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 51px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+
+.section h2 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h3 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h4 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h5 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+.section h6 {
+  padding-top: 56px;
+  margin-top: -56px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
+</script>
+
+<style type="text/css">
+
+#TOC {
+  margin: 25px 0px 20px 0px;
+}
+@media (max-width: 768px) {
+#TOC {
+  position: relative;
+  width: 100%;
+}
+}
+
+
+.toc-content {
+  padding-left: 30px;
+  padding-right: 40px;
+}
+
+div.main-container {
+  max-width: 1200px;
+}
+
+div.tocify {
+  width: 20%;
+  max-width: 260px;
+  max-height: 85%;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  div.tocify {
+    width: 25%;
+  }
+}
+
+@media (max-width: 767px) {
+  div.tocify {
+    width: 100%;
+    max-width: none;
+  }
+}
+
+.tocify ul, .tocify li {
+  line-height: 20px;
+}
+
+.tocify-subheader .tocify-item {
+  font-size: 0.90em;
+  padding-left: 25px;
+  text-indent: 0;
+}
+
+.tocify .list-group-item {
+  border-radius: 0px;
+}
+
+
+</style>
+
+<!-- setup 3col/9col grid for toc_float and main content  -->
+<div class="row-fluid">
+<div class="col-xs-12 col-sm-4 col-md-3">
+<div id="TOC" class="tocify">
+</div>
+</div>
+
+<div class="toc-content col-xs-12 col-sm-8 col-md-9">
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">Jake Diamond</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li>
+  <a href="index.html">Home</a>
+</li>
+<li>
+  <a href="about.html">About Me</a>
+</li>
+<li>
+  <a href="research.html">Research</a>
+</li>
+<li>
+  <a href="docs/CV.pdf">CV</a>
+</li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+  <a href="http://github.com/jakediamond">
+    <span class="fa fa-github fa-lg"></span>
+     
+  </a>
+</li>
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+
+</div>
+
+
+<center>
+<a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google Scholar</a><br />
+<a href="https://www.researchgate.net/profile/Jacob_Diamond">Research Gate</a><br />
+<a href="http://orcid.org/0000-0002-5392-5707">ORCID: 0000-0002-5392-5707</a><br />
+All figures and results presented here are my own work, conducted (in <a href="https://www.r-project.org/">R</a>) in close collaboration with several colleagues and mentors.
+</center>
+<hr />
+<div id="ecohydrology" class="section level1">
+<h1><strong>Ecohydrology</strong></h1>
+<p><a href="https://en.wikipedia.org/wiki/Ecohydrology">Ecohydrology</a> essentially asserts that biota and the hydrologic cycle are <em>fundamentally interconnected</em> through local and global reciprocal feedbacks. This idea is so intriguing to me!</p>
+<div id="plant-water-interactions-and-disturbance" class="section level2">
+<h2>Plant-water Interactions and Disturbance</h2>
+<div style="float:left;position: relative;margin-right: 20px">
+<p><img src="images/concept_ash.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /><br />
+<img src="images/ash_fig5a.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
+</div>
+<p>The invasive pest, the <a href="http://www.emeraldashborer.info/">emerald ash borer</a>, is causing large-scale loss of <a href="https://en.wikipedia.org/wiki/Fraxinus">ash trees</a> in North America, with important consequences for forestry, aesthetics, and ecosystem functioning. For the first chapter of my dissertation, I analyzed the ecohydrologic impacts of forest loss for the unique and beautiful <a href="https://en.wikipedia.org/wiki/Fraxinus_nigra">black ash</a> wetlands. We found three main things:</p>
+<ol style="list-style-type: decimal">
+<li>evapotranspiration (ET) limits the amount of water in black ash wetlands, and</li>
+<li>ET is uniquely determined by vegetation type and physical structure, but more interestingly,<br />
+</li>
+<li>when black ash is lost, a wetter and more marsh-like ecosystem persists, with implications for an <a href="https://en.wikipedia.org/wiki/Alternative_stable_state">alternative stable state</a>.</li>
+</ol>
+<p>You can read about it <a href="./docs/Diamond%20et%20al.%20(2018).pdf">here</a>.</p>
+<p><strong>Co-authors:</strong><br />
+<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
+<a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a><br />
+<a href="http://www.uvm.edu/rsenr/tonydamato/">Anthony D’Amato</a><br />
+<a href="https://www.nrs.fs.fed.us/people/Palik">Brian Palik</a></p>
+<p>Project funded by the Minnesota Environmental and Natural Resources Trust Fund, the USDA Forest Service Northern Research Station, and the Minnesota Forest Resources Council. Additional funding was provided by the Virginia Tech Forest Resources and Environmental Conservation department, the Virginia Tech Institute for Critical Technology and Applied Science, and the Virginia Tech William J. Dann Fellowship.</p>
+<hr />
+</div>
+<div id="anchormicro" class="section level2">
+<h2>Wetland Microtopography</h2>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><img src="images/huho.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /><br />
+<img src="images/tls.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
+</div>
+<p>Decades of research suggest that microtopography—changes in ground elevation on the order of 10–100 cm—is an important feature of ecosystems, and particularly wetlands, around the world. For example, we know that high points in a wetland (“hummocks”) have greater plant diversity, primary production, and nutrient concentrations than nearby low points (“hollows”). We also know that, under the right circumstances, spatial patterns of microtopography can emerge—a result of feedbacks that develop between biota, soil carbon, and hydrology. These observations, while interesting in their own right, also have important consequences for how we <a href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.2307/1941447">scale</a> from point measurements to ecosystem and global estimates.</p>
+<p>I am exploring black ash wetland microtopography in detail as part of my dissertation work, and we’ve been using a novel LiDAR method called Terrestrial Laser Scanning (TLS) with my collaborator <a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a> at the University of Virginia. Our current goals are to:</p>
+<ol style="list-style-type: decimal">
+<li>publish the algorithm to extract microtopography from TLS data</li>
+<li>analyze the geospatial structure of microtopography</li>
+<li>relate this structure to measured <a href="#anchorbgc">biogeochemical variables</a></li>
+</ol>
+<p><strong>Co-authors:</strong><br />
+<a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a><br />
+<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
+<a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a></p>
+<hr />
+</div>
+</div>
+<div id="anchorbgc" class="section level1">
+<h1><strong>Biogeochemistry</strong></h1>
+<div style="float:left;position: relative;margin-right: 20px">
+<p><img src="images/shannon_sfs.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /><br />
+<img src="images/soil_chem.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
+</div>
+<p>In wetland systems like the black ash swamps that we study, the ground surface is covered by an organic layer of <a href="https://en.wikipedia.org/wiki/Peat">peat</a> or muck. The height (or depth) of this layer is a function of the balance between primary production and soil respiration. We commonly observe local high points (“hummocks”) of this organic layer that are occupied by black ash trees, which led us to a hypothesis:</p>
+<p>H: black ash trees “create” their own hummocks through an evapoconcentration positive feedback loop, like so:</p>
+<ol style="list-style-type: decimal">
+<li>black ash tree transpiration draws in dissolved nutrients from the surrounding area, which leads to</li>
+<li>greater local primary production, which leads to</li>
+<li>buildup of root mass/soil organic matter and also greater transpiration, which leads to</li>
+<li>nutrient accumulation, and so on.</li>
+</ol>
+<p>As part of my dissertation work, I am testing this hypothesis by investigating <a href="#anchormicro">microtopography</a> and wetland biogeochemical variables such as nutrients, vegetative diversity, and primary production.</p>
+<p>Are plants actively changing their environment to their own advantage? (<a href="https://www.youtube.com/watch?v=CrrSAc-vjG4">Could be!</a>) This is a very difficult question to answer, but this research may add another piece of evidence to our growing understanding of the agency of plants.</p>
+<p> </p>
+<p><strong>Co-authors:</strong><br />
+<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
+<a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a><br />
+<a href="http://soils.frec.vt.edu/Strahm/Brian_Strahm___Forest_Soils_and_Biogeochemistry_Lab___Virginia_Tech.html">Brian Strahm</a><br />
+<a href="https://cnre.vt.edu/faculty/seiler/index.html">John Seiler</a></p>
+<hr />
+</div>
+<div id="hydrology" class="section level1">
+<h1><strong>Hydrology</strong></h1>
+<div id="watershed-hydrochemistry" class="section level2">
+<h2>Watershed Hydrochemistry</h2>
+<div style="float:right;position: relative;margin-left: 20px">
+<p><img src="images/cq_fig1.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
+</div>
+<p>Since the early days of watershed science, researchers have been fascinated with the concentration-discharge (C-Q) relationships of rivers and streams. The idea is simple enough: how does the chemical concentration of a material (e.g., nitrogen or sediment) change with the amount of water flowing in the river (aka “discharge”)? Perhaps surprisingly, these C-Q relationships can tell us quite a bit about how, when, and where water is routed through, and stored by watersheds.</p>
+<p>For my master’s thesis, I analyzed long-term measurements of concentration and discharge for rivers and streams across Florida. I found consistent patterns in C-Q relationships, where the C-Q shape depended entirely on the type of material under consideration (e.g., organically-derived <em>versus</em> rock-derived), implying common hydrologic storage and transport across systems, regardless of size or location. Interestingly, I also found consistent “breaks” in many of the C-Q relationships, implying a watershed <em>switching behavior</em> in the source location for river water (e.g., deep aquifer storage <em>versus</em> shallow soil horizons). This information improves our understanding of the fate and transport of materials through watersheds, with implications for <a href="https://en.wikipedia.org/wiki/Total_maximum_daily_load">predicting loads to downstream waterbodies</a>.</p>
+<p>You can read about it <a href="./docs/Diamond%20and%20Cohen_2018.pdf">here</a>.</p>
+<p><strong>Co-authors:</strong><br />
+<a href="http://sfrc.ufl.edu/ecohydrology/">Matt Cohen</a></p>
+<p>Project funded by the National Council for Air and Stream Improvement, the Florida Forest Service, and the National Institute of Food and Agriculture (NIFA) via CRIS project FLA‐FOR‐ 005284.</p>
+<hr />
+</div>
+<div id="wetlandscape-connectivity" class="section level2">
+<h2>Wetlandscape Connectivity</h2>
+<div style="float:left;position: relative;margin-right: 20px">
+<p><img src="images/spectrum_facet.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /><br />
+<img src="images/bicy_monthly.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
+</div>
+<p>A wetlandscape is a complex of all the wetlands within a drainage network. Most of the time, wetlands in a wetlandscape are disconnected from each other—they are geographically isolated. However, the timing, magnitude, and frequency of connections among wetlands in a wetlandscape has important implications for <a href="https://www.epa.gov/wotus-rule">policy and regulations</a>, ecosystem functioning, and also <a href="https://en.wikipedia.org/wiki/Ecosystem_services">ecosystem services</a>.</p>
+<p>We are using high-frequency measurements of wetland stage (i.e., water-level) in geographically-isolated <a href="https://www.google.com/search?q=cypress+domes&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwia6_2Yjs_cAhVLj1kKHbB5CFEQ_AUICigB&amp;biw=1920&amp;bih=898">cypress domes</a> in <a href="https://www.google.com/maps/@26.0346239,-81.0811382,3853m/data=!3m1!1e3">Big Cypress National Preserve</a> in southwest Florida to develop a simple methodology for extracting:</p>
+<ol style="list-style-type: decimal">
+<li>elevation thresholds of wetlandscape connectivity,</li>
+<li>frequencies and timings of wetlandscape connectivity (i.e., when and how often are the wetlands connected to each other), and</li>
+<li>magnitudes of hydrologic exchange among wetlands</li>
+</ol>
+<p><strong>Co-authors:</strong><br />
+<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
+<a href="http://sfrc.ufl.edu/ecohydrology/">Matt Cohen</a><br />
+<a href="https://www.researchgate.net/profile/Carlos_Quintero24">Carlos Quintero</a></p>
+</div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>
