@@ -1,0 +1,8 @@
+\
+\
+```{r,out.width = "400px",dpi = 600,align = "center", out.extra = 'style="display:block; margin:auto; padding:2px; background-color:#000000"', echo=FALSE}
+knitr::include_graphics("images/cordillera_central.jpg")
+```
+
+Right now, I am proud to be a PhD candidate (Expected: December 2018) in the [Forest Resources and Environmental Conservation](https://frec.vt.edu/) department at Virginia Tech with my co-advisors, [Dr. Daniel McLaughlin](https://frec.vt.edu/people/McLaughlin.html), and [Dr. Rob Slesak](https://mn.gov/frc/rob-slesak.html). In the near future, I hope to apply my knowledge and skills to study (and solve!) socioenvironmental problems, both big and small.
+
