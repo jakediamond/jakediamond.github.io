@@ -14,7 +14,7 @@ Hope you are well reading this. My name is Jake and I am an [ecosystem ecologist
 
 1. How do ecosystems [self-organize](https://en.wikipedia.org/wiki/Self-organization)?
 2. What can [emergent properties](https://en.wikipedia.org/wiki/Emergence#Emergent_structures_in_nature) of ecosystems tell us about their internal processes?
-3. How can we use our understanding of ecosystems to to improve [resource management](https://en.wikipedia.org/wiki/Environmental_resource_management) and human health?
+3. How can we use our understanding of ecosystems to improve [resource management](https://en.wikipedia.org/wiki/Environmental_resource_management) and human health?
 
 I typically think about these questions through the lenses of hydrology, systems ecology, and biogeochemistry.
 
