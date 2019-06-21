@@ -4,8 +4,8 @@ output:
     toc: true 
     toc_depth: 2
     toc_float: true
-    includes:
-      in_header: meta.html
+    # includes:
+    #   in_header: meta.html
 ---
 
 <center>[Google Scholar](https://scholar.google.com/citations?user=BsBmdAUAAAAJ&hl=en)  

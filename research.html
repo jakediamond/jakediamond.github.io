@@ -11,7 +11,7 @@
 
 
 
-<title></title>
+<title>research.utf8.md</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -25,14 +25,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
-<!DOCTYPE html>
-
-<meta name="description" content="Jake Diamond's personal research website"/>
-<meta name="keywords" content="hydrology,ecology,ecohydrology,wetlands"/>
-<meta name="author" content="Jake Diamond"/>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -81,9 +75,7 @@ h6 {
 
 <link rel="stylesheet" href="styles.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -108,6 +100,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -122,7 +117,6 @@ body {
   padding-top: 56px;
   margin-top: -56px;
 }
-
 .section h2 {
   padding-top: 56px;
   margin-top: -56px;
@@ -142,6 +136,43 @@ body {
 .section h6 {
   padding-top: 56px;
   margin-top: -56px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -163,18 +194,75 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -252,8 +340,6 @@ div.tocify {
 
 .tocify-subheader .tocify-item {
   font-size: 0.90em;
-  padding-left: 25px;
-  text-indent: 0;
 }
 
 .tocify .list-group-item {
@@ -262,6 +348,16 @@ div.tocify {
 
 
 </style>
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
+
 
 <!-- setup 3col/9col grid for toc_float and main content  -->
 <div class="row-fluid">
@@ -359,11 +455,11 @@ All figures and results presented here are my own work, conducted (in <a href="h
 <img src="images/tls.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
 </div>
 <p>Decades of research suggest that microtopography—changes in ground elevation on the order of 10–100 cm—is an important feature of ecosystems, and particularly wetlands, around the world. For example, we know that high points in a wetland (“hummocks”) have greater plant diversity, primary production, and nutrient concentrations than nearby low points (“hollows”). We also know that, under the right circumstances, spatial patterns of microtopography can emerge—a result of feedbacks that develop between biota, soil carbon, and hydrology. These observations, while interesting in their own right, also have important consequences for how we <a href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.2307/1941447">scale</a> from point measurements to ecosystem and global estimates.</p>
-<p>I am exploring black ash wetland microtopography in detail as part of my dissertation work, and we’ve been using a novel LiDAR method called Terrestrial Laser Scanning (TLS) with my collaborator <a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a> at the University of Virginia. Our current goals are to:</p>
+<p>I am exploring black ash wetland microtopography in detail as part of my dissertation work, and we’ve been using a novel LiDAR method called Terrestrial Laser Scanning (TLS) with my collaborator <a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a> at the University of Virginia. We have recently:</p>
 <ol style="list-style-type: decimal">
-<li>publish the algorithm to extract microtopography from TLS data</li>
-<li>analyze the geospatial structure of microtopography</li>
-<li>relate this structure to measured <a href="#anchorbgc">biogeochemical variables</a></li>
+<li>published the algorithm to extract microtopography from TLS data</li>
+<li>analyzed the geospatial structure of microtopography</li>
+<li>related this structure to measured <a href="#anchorbgc">biogeochemical variables</a></li>
 </ol>
 <p><strong>Co-authors:</strong><br />
 <a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a><br />
@@ -392,8 +488,7 @@ All figures and results presented here are my own work, conducted (in <a href="h
 <p><strong>Co-authors:</strong><br />
 <a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
 <a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a><br />
-<a href="http://soils.frec.vt.edu/Strahm/Brian_Strahm___Forest_Soils_and_Biogeochemistry_Lab___Virginia_Tech.html">Brian Strahm</a><br />
-<a href="https://cnre.vt.edu/faculty/seiler/index.html">John Seiler</a></p>
+<a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a></p>
 <hr />
 </div>
 <div id="hydrology" class="section level1">
@@ -427,7 +522,7 @@ All figures and results presented here are my own work, conducted (in <a href="h
 <p><strong>Co-authors:</strong><br />
 <a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
 <a href="http://sfrc.ufl.edu/ecohydrology/">Matt Cohen</a><br />
-<a href="https://www.researchgate.net/profile/Carlos_Quintero24">Carlos Quintero</a></p>
+<a href="https://www.researchgate.net/profile/Carlos_Quintero24">Carlos Quintero</a> <a href="https://heffernanlab.weebly.com/">Jim Heffernan</a></p>
 </div>
 </div>
 
