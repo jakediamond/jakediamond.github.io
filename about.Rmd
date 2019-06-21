@@ -4,5 +4,10 @@
 knitr::include_graphics("images/cordillera_central.jpg")
 ```
 
-Right now, I am proud to be a PhD candidate (Expected: May 2019) in the [Forest Resources and Environmental Conservation](https://frec.vt.edu/) department at Virginia Tech with my co-advisors, [Dr. Daniel McLaughlin](https://frec.vt.edu/people/McLaughlin.html), and [Dr. Rob Slesak](https://mn.gov/frc/rob-slesak.html). In the near future, I hope to apply my knowledge and skills to study (and solve!) socioenvironmental problems, both big and small.
+I am currently a post-doctoral researcher at [Irstea](https://www.irstea.fr/fr) 
+in Lyon, France, with [Dr. Florentina Moatar](https://scholar.google.fr/citations?user=LzbYKSAAAAAJ&hl=en&oi=ao), and 
+[Dr. Gilles Pinay](https://scholar.google.fr/citations?hl=en&user=gZAJ_rQAAAAJ). 
+We are studying 
+[stream and river metabolism](https://en.wikipedia.org/wiki/Stream_metabolism), 
+and how it evolves through a river network.
 

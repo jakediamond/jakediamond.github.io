@@ -69,11 +69,11 @@ knitr::include_graphics("images/tls.jpg")
 
 Decades of research suggest that microtopography---changes in ground elevation on the order of 10--100 cm---is an important feature of ecosystems, and particularly wetlands, around the world. For example, we know that high points in a wetland ("hummocks") have greater plant diversity, primary production, and nutrient concentrations than nearby low points ("hollows"). We also know that, under the right circumstances, spatial patterns of microtopography can emerge---a result of feedbacks that develop between biota, soil carbon, and hydrology. These observations, while interesting in their own right, also have important consequences for how we [scale](https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.2307/1941447) from point measurements to ecosystem and global estimates.
 
-I am exploring black ash wetland microtopography in detail as part of my dissertation work, and we've been using a novel LiDAR method called Terrestrial Laser Scanning (TLS) with my collaborator [Atticus Stovall](https://atticusstovall.wordpress.com/) at the University of Virginia. Our current goals are to:
+I am exploring black ash wetland microtopography in detail as part of my dissertation work, and we've been using a novel LiDAR method called Terrestrial Laser Scanning (TLS) with my collaborator [Atticus Stovall](https://atticusstovall.wordpress.com/) at the University of Virginia. We have recently:
 
-1. publish the algorithm to extract microtopography from TLS data
-2. analyze the geospatial structure of microtopography
-3. relate this structure to measured [biogeochemical variables](#anchorbgc)
+1. published the algorithm to extract microtopography from TLS data
+2. analyzed the geospatial structure of microtopography
+3. related this structure to measured [biogeochemical variables](#anchorbgc)
 
 **Co-authors:**  
 [Atticus Stovall](https://atticusstovall.wordpress.com/)  
@@ -112,9 +112,7 @@ Are plants actively changing their environment to their own advantage? ([Could b
 **Co-authors:**  
 [Daniel McLaughlin](https://frec.vt.edu/people/McLaughlin.html)  
 [Rob Slesak](https://mn.gov/frc/rob-slesak.html)  
-[Brian Strahm](http://soils.frec.vt.edu/Strahm/Brian_Strahm___Forest_Soils_and_Biogeochemistry_Lab___Virginia_Tech.html)  
-[John Seiler](https://cnre.vt.edu/faculty/seiler/index.html)
-
+[Atticus Stovall](https://atticusstovall.wordpress.com/)  
 
 ***
 
@@ -167,5 +165,6 @@ We are using high-frequency measurements of wetland stage (i.e., water-level) in
 **Co-authors:**  
 [Daniel McLaughlin](https://frec.vt.edu/people/McLaughlin.html)  
 [Matt Cohen](http://sfrc.ufl.edu/ecohydrology/)  
-[Carlos Quintero](https://www.researchgate.net/profile/Carlos_Quintero24)  
+[Carlos Quintero](https://www.researchgate.net/profile/Carlos_Quintero24)
+[Jim Heffernan](https://heffernanlab.weebly.com/)
 
