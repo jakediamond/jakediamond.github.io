@@ -27,7 +27,7 @@ map_links <- function(l) {
   d <- tmp$headers[['last-modified']]
   
   list(loc=l,
-       lastmod=dmy_hms(d),
+       lastmod=as_date(dmy_hms(d)),
        changefreq="monthly",
        priority="0.8")
 }
