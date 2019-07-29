@@ -5,7 +5,7 @@ knitr::include_graphics("images/cordillera_central.jpg")
 ```
 
 I am currently a post-doctoral researcher at [Irstea](https://www.irstea.fr/fr) 
-in Lyon, France, with [Dr. Florentina Moatar](https://scholar.google.fr/citations?user=LzbYKSAAAAAJ&hl=en&oi=ao), and 
+in Lyon, France, with [Dr. Florentina Moatar](https://scholar.google.fr/citations?user=LzbYKSAAAAAJ&hl=en&oi=ao) and 
 [Dr. Gilles Pinay](https://scholar.google.fr/citations?hl=en&user=gZAJ_rQAAAAJ). 
 We are studying 
 [stream and river metabolism](https://en.wikipedia.org/wiki/Stream_metabolism), 

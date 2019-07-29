@@ -6,7 +6,8 @@ output:
 ---
 \
 \
-<img src="images/jake_cordillera_central.jpg" style="width:50%; border:2px solid; margin-left: 20px"; align="right">
+<img src="images/jake_cordillera_central.jpg" style="width:50%; border:2px solid; margin-left: 20px"; align="right"/>
+
 
 ## Greetings
 
