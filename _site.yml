@@ -23,4 +23,5 @@ output:
     css: styles.css
     includes:
       in_header: meta.html
+pagetitle: Jake Diamond's Website
 ---
