@@ -1,5 +1,6 @@
 library(whisker)
 library(httr)
+library(lubridate)
 tpl <- '
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -14,11 +15,11 @@ tpl <- '
 </urlset>
 '
 
-links <- c("http://jakediamond.science",
-           "http://www.jakediamond.science",
-           "http://jakediamond.science/index.html", 
-           "http://jakediamond.science/about.html",
-           "http://jakediamond.science/research.html")
+links <- c("https://jakediamond.science",
+           # "https://www.jakediamond.science",
+           "https://jakediamond.science/index.html", 
+           "https://jakediamond.science/about.html",
+           "https://jakediamond.science/research.html")
 
 
 map_links <- function(l) {
@@ -26,7 +27,7 @@ map_links <- function(l) {
   d <- tmp$headers[['last-modified']]
   
   list(loc=l,
-       lastmod=format(as.Date(d,format="%a, %d %b %Y %H:%M:%S")),
+       lastmod=dmy_hms(d),
        changefreq="monthly",
        priority="0.8")
 }
