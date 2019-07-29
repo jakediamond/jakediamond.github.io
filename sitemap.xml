@@ -1,69 +1,33 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://jakediamond.science</loc>
-<lastmod>2018-10-14</lastmod>
+<lastmod>NA</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>http://www.jakediamond.science</loc>
-<lastmod>2018-10-14</lastmod>
+<lastmod>NA</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>http://jakediamond.science/index.html</loc>
-<lastmod>2018-10-14</lastmod>
+<lastmod>NA</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>http://jakediamond.science/about.html</loc>
-<lastmod>2018-10-14</lastmod>
+<lastmod>NA</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 <url>
 <loc>http://jakediamond.science/research.html</loc>
-<lastmod>2018-10-14</lastmod>
+<lastmod>NA</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.8</priority>
 </url>
 </urlset>
-=======
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-<url>
-<loc>https://jakediamond.science</loc>
-<lastmod>2018-10-14</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://www.jakediamond.science</loc>
-<lastmod>2018-10-14</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://jakediamond.science/index.html</loc>
-<lastmod>2018-10-14</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://jakediamond.science/about.html</loc>
-<lastmod>2018-10-14</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://jakediamond.science/research.html</loc>
-<lastmod>2018-10-14</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.8</priority>
-</url>
-</urlset>
->>>>>>> f956b75016a8df1eeb272a603678ae1e9fc1325b
