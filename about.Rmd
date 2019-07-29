@@ -1,3 +1,7 @@
+---
+pagetitle: Jake Diamond's Research Website
+---
+
 \
 \
 ```{r,out.width = "400px",dpi = 600,align = "center", out.extra = 'style="display:block; margin:auto; padding:2px; background-color:#000000"', echo=FALSE}
