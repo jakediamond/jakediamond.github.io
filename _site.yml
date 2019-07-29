@@ -21,4 +21,6 @@ output:
     theme: cosmo
     highlight: textmate
     css: styles.css
+    includes:
+      in_header: meta.html
 ---
