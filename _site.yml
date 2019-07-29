@@ -1,4 +1,6 @@
 ---
+title: Jake Diamond's Research Website
+author: Jake Diamond
 name: "Jake Diamond"
 output_dir: "."
 
@@ -23,5 +25,4 @@ output:
     css: styles.css
     includes:
       in_header: meta.html
-title: Jake Diamond's Research Website
 ---
