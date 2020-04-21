@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -90,7 +90,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -239,6 +238,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -250,18 +250,6 @@ $(document).ready(function () {
   display: none;
 }
 </style>
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
 
 <!-- code folding -->
 
@@ -300,7 +288,7 @@ $(document).ready(function () {
   <a href="research.html">Research</a>
 </li>
 <li>
-  <a href="docs/CV.pdf">CV</a>
+  <a href="./docs/CV.pdf">CV</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -326,7 +314,13 @@ $(document).ready(function () {
 <p><br />
 <br />
 <img src="images/cordillera_central.jpg" width="400px" style="display:block; margin:auto; padding:2px; background-color:#000000" /></p>
-<p>I am currently a post-doctoral researcher at <a href="https://www.irstea.fr/fr">Irstea</a> in Lyon, France, with <a href="https://scholar.google.fr/citations?user=LzbYKSAAAAAJ&amp;hl=en&amp;oi=ao">Dr. Florentina Moatar</a> and <a href="https://scholar.google.fr/citations?hl=en&amp;user=gZAJ_rQAAAAJ">Dr. Gilles Pinay</a>. We are studying <a href="https://en.wikipedia.org/wiki/Stream_metabolism">stream and river metabolism</a>, and how it evolves through a river network.</p>
+<p>I am currently a post-doctoral researcher at the RiverLy research unit at <a href="https://riverly.inrae.fr/en/home">INRAe</a> with the <a href="https://ecoflows.inrae.fr/">EcoFlows team</a> in Lyon, France, with <a href="https://scholar.google.fr/citations?user=LzbYKSAAAAAJ&amp;hl=en&amp;oi=ao">Dr. Florentina Moatar</a> and <a href="https://scholar.google.fr/citations?hl=en&amp;user=gZAJ_rQAAAAJ">Dr. Gilles Pinay</a>. We are studying <a href="https://en.wikipedia.org/wiki/Stream_metabolism">stream and river metabolism</a>, and how it evolves through river networks.</p>
+<p>We are currently focused on two major themes:</p>
+<ol style="list-style-type: decimal">
+<li><p>How are major changes to river ecological state, like clear water changing to murky water, linked to changes in ecological processes, like how much carbon is processed in the river?</p></li>
+<li><p>How does river network structure, like the number of confluences and their orientation, influence ecological processes?</p></li>
+</ol>
+<p>Both themes advance our understanding of how rivers and river networks create, process, and transform elements like carbon and nitrogen.</p>
 
 
 
@@ -345,6 +339,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

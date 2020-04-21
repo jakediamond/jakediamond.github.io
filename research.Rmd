@@ -70,11 +70,15 @@ knitr::include_graphics("images/tls.jpg")
 
 Decades of research suggest that microtopography---changes in ground elevation on the order of 10--100 cm---is an important feature of ecosystems, and particularly wetlands, around the world. For example, we know that high points in a wetland ("hummocks") have greater plant diversity, primary production, and nutrient concentrations than nearby low points ("hollows"). We also know that, under the right circumstances, spatial patterns of microtopography can emerge---a result of feedbacks that develop between biota, soil carbon, and hydrology. These observations, while interesting in their own right, also have important consequences for how we [scale](https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.2307/1941447) from point measurements to ecosystem and global estimates.
 
-I am exploring black ash wetland microtopography in detail as part of my dissertation work, and we've been using a novel LiDAR method called Terrestrial Laser Scanning (TLS) with my collaborator [Atticus Stovall](https://atticusstovall.wordpress.com/) at the University of Virginia. We have recently:
+I explored black ash wetland microtopography in detail as part of my dissertation work, and with the help of my collaborator, [Dr. Atticus Stovall](https://atticusstovall.wordpress.com/), we used a novel LiDAR method called Terrestrial Laser Scanning (TLS) to analyze the microtopographic pattern, structure, and ecological implications. In particular we:
 
-1. published the algorithm to extract microtopography from TLS data
-2. analyzed the geospatial structure of microtopography
+1. published the algorithm to extract microtopography from TLS data. You can read about it [here](./docs/Stovall et al_2019_TLS.pdf).
+2. analyzed the geospatial structure of microtopography and found that it supports a model where plants
+create their own microtopography. You can read about it [here](./docs/Diamond et al_Microtopo pattern.pdf).
 3. related this structure to measured [biogeochemical variables](#anchorbgc)
+
+Finally, with the help of many other collaborators, we have recently submitted the first synthesis of
+wetland microtopography: what it is, why it's ecologically important, and how it comes to be! Coming soon to a journal near you!
 
 **Co-authors:**  
 [Atticus Stovall](https://atticusstovall.wordpress.com/)  
@@ -104,10 +108,11 @@ H: black ash trees "create" their own hummocks through an evapoconcentration pos
 3. buildup of root mass/soil organic matter and also greater transpiration, which leads to 
 4. nutrient accumulation, and so on.
 
-As part of my dissertation work, I am testing this hypothesis by investigating [microtopography](#anchormicro) and wetland biogeochemical variables such as nutrients, vegetative diversity, and primary production.
+As part of my dissertation work, I tested this hypothesis by investigating [microtopography](#anchormicro) and wetland biogeochemical variables such as nutrients, vegetative diversity, and primary production. We found evidence supporting the evapoconcentration feedback loop where hummocks were hotspots for soil phosphorus (and the passive evapotranspiration tracer, chloride!), understory diversity, and overstory biomass. 
 
 Are plants actively changing their environment to their own advantage? ([Could be!](https://www.youtube.com/watch?v=CrrSAc-vjG4)) This is a very difficult question to answer, but this research may add another piece of evidence to our growing understanding of the agency of plants.
 
+You can read about it [here](./docs/Diamond et al_2020_Microtopo organizing.pdf).
 \ 
 
 **Co-authors:**  
@@ -157,11 +162,13 @@ knitr::include_graphics("images/bicy_monthly.jpg")
 
 A wetlandscape is a complex of all the wetlands within a drainage network. Most of the time, wetlands in a wetlandscape are disconnected from each other---they are geographically isolated. However, the timing, magnitude, and frequency of connections among wetlands in a wetlandscape has important implications for [policy and regulations](https://www.epa.gov/wotus-rule), ecosystem functioning, and also [ecosystem services](https://en.wikipedia.org/wiki/Ecosystem_services).
 
-We are using high-frequency measurements of wetland stage (i.e., water-level) in geographically-isolated [cypress domes](https://www.google.com/search?q=cypress+domes&source=lnms&tbm=isch&sa=X&ved=0ahUKEwia6_2Yjs_cAhVLj1kKHbB5CFEQ_AUICigB&biw=1920&bih=898) in [Big Cypress National Preserve](https://www.google.com/maps/@26.0346239,-81.0811382,3853m/data=!3m1!1e3) in southwest Florida to develop a simple methodology for extracting:  
+We used high-frequency measurements of wetland stage (i.e., water-level) in geographically-isolated [cypress domes](https://www.google.com/search?q=cypress+domes&source=lnms&tbm=isch&sa=X&ved=0ahUKEwia6_2Yjs_cAhVLj1kKHbB5CFEQ_AUICigB&biw=1920&bih=898) in [Big Cypress National Preserve](https://www.google.com/maps/@26.0346239,-81.0811382,3853m/data=!3m1!1e3) in southwest Florida to develop a simple methodology for extracting:  
 
 1. elevation thresholds of wetlandscape connectivity,
 2. frequencies and timings of wetlandscape connectivity (i.e., when and how often are the wetlands connected to each other), and
 3. magnitudes of hydrologic exchange among wetlands
+
+You can read about it [here](./docs/McLaughlin et al_2019_Wetland connectivity.pdf)
 
 **Co-authors:**  
 [Daniel McLaughlin](https://frec.vt.edu/people/McLaughlin.html)  

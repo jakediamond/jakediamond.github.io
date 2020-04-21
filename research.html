@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 
 <head>
 
 <meta charset="utf-8" />
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -93,7 +93,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -242,6 +241,7 @@ $(document).ready(function () {
   border: none;
   display: inline-block;
   border-radius: 4px;
+  background-color: transparent;
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li {
@@ -254,48 +254,9 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
 
-
-<script>
-$(document).ready(function ()  {
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <style type="text/css">
 
@@ -309,6 +270,12 @@ $(document).ready(function ()  {
 }
 }
 
+@media print {
+.toc-content {
+  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
+  float: right;
+}
+}
 
 .toc-content {
   padding-left: 30px;
@@ -397,7 +364,7 @@ div.tocify {
   <a href="research.html">Research</a>
 </li>
 <li>
-  <a href="docs/CV.pdf">CV</a>
+  <a href="./docs/CV.pdf">CV</a>
 </li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
@@ -429,7 +396,7 @@ All figures and results presented here are my own work, conducted (in <a href="h
 <hr />
 <div id="ecohydrology" class="section level1">
 <h1><strong>Ecohydrology</strong></h1>
-<p><a href="https://en.wikipedia.org/wiki/Ecohydrology">Ecohydrology</a> essentially asserts that biota and the hydrologic cycle are <em>fundamentally interconnected</em> through local and global reciprocal feedbacks. This idea is so intriguing to me!</p>
+<p><a href="https://en.wikipedia.org/wiki/Ecohydrology">Ecohydrology</a> explores the interonnectedness of biota and the hydrologic cycle through local and global feedbacks. This idea is so intriguing to me!</p>
 <div id="plant-water-interactions-and-disturbance" class="section level2">
 <h2>Plant-water Interactions and Disturbance</h2>
 <div style="float:left;position: relative;margin-right: 20px">
@@ -459,12 +426,13 @@ All figures and results presented here are my own work, conducted (in <a href="h
 <img src="images/tls.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
 </div>
 <p>Decades of research suggest that microtopography—changes in ground elevation on the order of 10–100 cm—is an important feature of ecosystems, and particularly wetlands, around the world. For example, we know that high points in a wetland (“hummocks”) have greater plant diversity, primary production, and nutrient concentrations than nearby low points (“hollows”). We also know that, under the right circumstances, spatial patterns of microtopography can emerge—a result of feedbacks that develop between biota, soil carbon, and hydrology. These observations, while interesting in their own right, also have important consequences for how we <a href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.2307/1941447">scale</a> from point measurements to ecosystem and global estimates.</p>
-<p>I am exploring black ash wetland microtopography in detail as part of my dissertation work, and we’ve been using a novel LiDAR method called Terrestrial Laser Scanning (TLS) with my collaborator <a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a> at the University of Virginia. We have recently:</p>
+<p>I explored black ash wetland microtopography in detail as part of my dissertation work, and with the help of my collaborator, <a href="https://atticusstovall.wordpress.com/">Dr. Atticus Stovall</a>, we used a novel LiDAR method called Terrestrial Laser Scanning (TLS) to analyze the microtopographic pattern, structure, and ecological implications. In particular we:</p>
 <ol style="list-style-type: decimal">
-<li>published the algorithm to extract microtopography from TLS data</li>
-<li>analyzed the geospatial structure of microtopography</li>
+<li>published the algorithm to extract microtopography from TLS data. You can read about it <a href="./docs/Stovall%20et%20al_2019_TLS.pdf">here</a>.</li>
+<li>analyzed the geospatial structure of microtopography and found that it supports a model where plants create their own microtopography. You can read about it <a href="./docs/Diamond%20et%20al_Microtopo%20pattern.pdf">here</a>.</li>
 <li>related this structure to measured <a href="#anchorbgc">biogeochemical variables</a></li>
 </ol>
+<p>Finally, with the help of many other collaborators, we have recently submitted the first synthesis of wetland microtopography: what it is, why it’s ecologically important, and how it comes to be! Coming soon to a journal near you!</p>
 <p><strong>Co-authors:</strong><br />
 <a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a><br />
 <a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
@@ -486,9 +454,9 @@ All figures and results presented here are my own work, conducted (in <a href="h
 <li>buildup of root mass/soil organic matter and also greater transpiration, which leads to</li>
 <li>nutrient accumulation, and so on.</li>
 </ol>
-<p>As part of my dissertation work, I am testing this hypothesis by investigating <a href="#anchormicro">microtopography</a> and wetland biogeochemical variables such as nutrients, vegetative diversity, and primary production.</p>
+<p>As part of my dissertation work, I tested this hypothesis by investigating <a href="#anchormicro">microtopography</a> and wetland biogeochemical variables such as nutrients, vegetative diversity, and primary production. We found evidence supporting the evapoconcentration feedback loop where hummocks were hotspots for soil phosphorus (and the passive evapotranspiration tracer, chloride!), understory diversity, and overstory biomass.</p>
 <p>Are plants actively changing their environment to their own advantage? (<a href="https://www.youtube.com/watch?v=CrrSAc-vjG4">Could be!</a>) This is a very difficult question to answer, but this research may add another piece of evidence to our growing understanding of the agency of plants.</p>
-<p> </p>
+<p>You can read about it <a href="./docs/Diamond%20et%20al_2020_Microtopo%20organizing.pdf">here</a>.  </p>
 <p><strong>Co-authors:</strong><br />
 <a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
 <a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a><br />
@@ -517,12 +485,13 @@ All figures and results presented here are my own work, conducted (in <a href="h
 <img src="images/bicy_monthly.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
 </div>
 <p>A wetlandscape is a complex of all the wetlands within a drainage network. Most of the time, wetlands in a wetlandscape are disconnected from each other—they are geographically isolated. However, the timing, magnitude, and frequency of connections among wetlands in a wetlandscape has important implications for <a href="https://www.epa.gov/wotus-rule">policy and regulations</a>, ecosystem functioning, and also <a href="https://en.wikipedia.org/wiki/Ecosystem_services">ecosystem services</a>.</p>
-<p>We are using high-frequency measurements of wetland stage (i.e., water-level) in geographically-isolated <a href="https://www.google.com/search?q=cypress+domes&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwia6_2Yjs_cAhVLj1kKHbB5CFEQ_AUICigB&amp;biw=1920&amp;bih=898">cypress domes</a> in <a href="https://www.google.com/maps/@26.0346239,-81.0811382,3853m/data=!3m1!1e3">Big Cypress National Preserve</a> in southwest Florida to develop a simple methodology for extracting:</p>
+<p>We used high-frequency measurements of wetland stage (i.e., water-level) in geographically-isolated <a href="https://www.google.com/search?q=cypress+domes&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwia6_2Yjs_cAhVLj1kKHbB5CFEQ_AUICigB&amp;biw=1920&amp;bih=898">cypress domes</a> in <a href="https://www.google.com/maps/@26.0346239,-81.0811382,3853m/data=!3m1!1e3">Big Cypress National Preserve</a> in southwest Florida to develop a simple methodology for extracting:</p>
 <ol style="list-style-type: decimal">
 <li>elevation thresholds of wetlandscape connectivity,</li>
 <li>frequencies and timings of wetlandscape connectivity (i.e., when and how often are the wetlands connected to each other), and</li>
 <li>magnitudes of hydrologic exchange among wetlands</li>
 </ol>
+<p>You can read about it <a href="./docs/McLaughlin%20et%20al_2019_Wetland%20connectivity.pdf">here</a></p>
 <p><strong>Co-authors:</strong><br />
 <a href="https://frec.vt.edu/people/McLaughlin.html">Daniel McLaughlin</a><br />
 <a href="http://sfrc.ufl.edu/ecohydrology/">Matt Cohen</a><br />
@@ -548,6 +517,49 @@ $(document).ready(function () {
 });
 
 
+</script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
+<script>
+$(document).ready(function ()  {
+
+    // move toc-ignore selectors from section div to header
+    $('div.section.toc-ignore')
+        .removeClass('toc-ignore')
+        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
+
+    // establish options
+    var options = {
+      selectors: "h1,h2",
+      theme: "bootstrap3",
+      context: '.toc-content',
+      hashGenerator: function (text) {
+        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_').toLowerCase();
+      },
+      ignoreSelector: ".toc-ignore",
+      scrollTo: 0
+    };
+    options.showAndHide = true;
+    options.smoothScroll = true;
+
+    // tocify
+    var toc = $("#TOC").tocify(options).data("toc-tocify");
+});
 </script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
