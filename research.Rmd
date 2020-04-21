@@ -17,7 +17,9 @@ All figures and results presented here are my own work, conducted (in [R](https:
 
 # **Ecohydrology**
 
-[Ecohydrology](https://en.wikipedia.org/wiki/Ecohydrology) essentially asserts that biota and the hydrologic cycle are *fundamentally interconnected* through local and global reciprocal feedbacks. This idea is so intriguing to me! 
+[Ecohydrology](https://en.wikipedia.org/wiki/Ecohydrology) explores the interonnectedness of 
+biota and the hydrologic cycle through local and global feedbacks. 
+This idea is so intriguing to me! 
 
 ## Plant-water Interactions and Disturbance
 
