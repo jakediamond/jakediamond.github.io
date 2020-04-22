@@ -23,6 +23,6 @@ linked to changes in ecological processes, like how much carbon is processed in 
 2) How does river network structure, like the number of confluences and their orientation,
 influence ecological processes?
 
-Both themes advance our understanding of how rivers and river networks create, process,
+Both themes advance our understanding of how rivers and river networks transport, process,
 and transform elements like carbon and nitrogen. 
 
