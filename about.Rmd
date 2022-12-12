@@ -15,14 +15,16 @@ We are studying
 [stream and river metabolism](https://en.wikipedia.org/wiki/Stream_metabolism), 
 and how it evolves through river networks. 
 
-We are currently focused on two major themes: 
+We are currently focused on three major themes: 
 
 1) How are major changes to river ecological state, like clear water changing to murky water,
 linked to changes in ecological processes, like how much carbon is processed in the river?
 
-2) How does river network structure, like the number of confluences and their orientation,
+2) How do rapid changes in river ecological state propogate across a river network?
+
+3) How does river network structure, like the number of confluences and their orientation,
 influence ecological processes?
 
-Both themes advance our understanding of how rivers and river networks transport, process,
+These themes advance our understanding of how rivers and river networks transport, process,
 and transform elements like carbon and nitrogen. 
 
