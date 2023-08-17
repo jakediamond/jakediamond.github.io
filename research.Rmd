@@ -15,6 +15,29 @@ All figures and results presented here are my own work, conducted (in [R](https:
 
 ***
 
+# **River Ecology** {#anchorriveco} 
+
+[Stream and river ecology](https://www.nature.com/scitable/knowledge/library/rivers-and-streams-life-in-flowing-water-23587918/)
+
+<div style= "float:right;position: relative;margin-left: 20px">
+```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+knitr::include_graphics("images/loire_conceptual_figure.jpg")
+```
+</div>
+
+when black ash is lost, a wetter and more marsh-like ecosystem persists, with implications for an [alternative stable state](https://en.wikipedia.org/wiki/Alternative_stable_state). 
+
+You can read about it [here](./docs/Diamond et al_2021_RegimeShiftsLoire.pdf).
+
+**Co-authors:**  
+[Florentina Moatar](https://florentina-moatar.com/)  
+[Gilles Pinay](https://scholar.google.fr/citations?hl=en&user=gZAJ_rQAAAAJ)  
+[Matthew Cohen](http://sfrc.ufl.edu/ecohydrology/)  
+[Anthony Maire](https://scholar.google.fr/citations?user=W2Q6WuQAAAAJ&hl=fr&inst=13410158990364976897)
+ 
+
+***
+
 # **Ecohydrology**
 
 [Ecohydrology](https://en.wikipedia.org/wiki/Ecohydrology) explores the interonnectedness of 
@@ -77,8 +100,8 @@ I explored black ash wetland microtopography in detail as part of my dissertatio
 create their own microtopography. You can read about it [here](./docs/Diamond et al_Microtopo pattern.pdf).
 3. related this structure to measured [biogeochemical variables](#anchorbgc)
 
-Finally, with the help of many other collaborators, we have recently submitted the first synthesis of
-wetland microtopography: what it is, why it's ecologically important, and how it comes to be! Coming soon to a journal near you!
+Finally, with the help of many other collaborators, we published the [first synthesis of
+wetland microtopography](./docs/Diamond et al_2020_A little relief): what it is, why it's ecologically important, and how it comes to be!
 
 **Co-authors:**  
 [Atticus Stovall](https://atticusstovall.wordpress.com/)  
@@ -89,7 +112,22 @@ wetland microtopography: what it is, why it's ecologically important, and how it
 
 # **Biogeochemistry** {#anchorbgc} 
 
+## Headwater stream biogeochemistry
 <div style= "float:left;position: relative;margin-right: 20px">
+```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+knitr::include_graphics("images/gpp_area.png")
+```
+</div>
+
+**Co-authors:**  
+[Susana Bernal](https://www.ceab.csic.es/en/member/susanna-bernal-berenguer/) 
+[David Lewis](https://scholar.google.com/citations?user=qlaN2UoAAAAJ&hl=en&inst=13410158990364976897)
+
+***
+
+## Wetland biogeochemistry
+
+<div style= "float:right;position: relative;margin-left: 20px">
 ```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
 knitr::include_graphics("images/shannon_sfs.jpg")
 ```
