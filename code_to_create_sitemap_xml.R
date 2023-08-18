@@ -16,7 +16,7 @@ tpl <- '
 '
 
 links <- c("https://jakediamond.science",
-           # "https://www.jakediamond.science",
+           "https://jakediamond.science/business.html",
            "https://jakediamond.science/index.html", 
            "https://jakediamond.science/about.html",
            "https://jakediamond.science/research.html")
