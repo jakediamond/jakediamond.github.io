@@ -10,10 +10,10 @@ navbar:
       href: index.html
     - text: "About Me"
       href: about.html
-    - text: "Jake Diamond LLC"
-      href: business.html
     - text: "Research"
       href: research.html
+    - text: "Jake Diamond LLC"
+      href: business.html
     - text: "CV"
       href: ./docs/CV.pdf
   right:
