@@ -20,8 +20,34 @@ Business services offered:
 I am open to working with all kinds of data and subject areas, but my expertise lies in:
 
 * Ecology
+  + Spatial pattern analysis
+  + Richness and diversity
+  + Primary productivity and ecosystem respiration
+  + Forest, lake, and river ecosystem carbon and energy budgets
+  + Carbon, nitrogen, and phosphorus cycles
 * Hydrology
-* Soils
+  + Catchment and lake water budgets
+  + Groundwater-surface water interactions
+  + Wetland hydrology
+  + Forest hydrology
+  + Plant water use and evapotranspiration
+  + Catchment travel time distributions
+  + Stochastic hydrologic modeling
+  + River and wetland connectivity
+  + Flood frequency analysis
+  + Baseflow and stormflow separation
+* Water chemistry
+  + Carbonate system and links with calcium
+  + Nutrient uptake, transport and transformation
+  + Water-atmosphere gas exchange
+  + Precipitation/dissolution reactions
+* Statistics
+  + Multivariate regression including mixed effects
+  + Parametric and non-parametric testing
+  + Random forest and machine learning prediction
+  + Causality analysis
+  + Synchrony
+  + Geospatial
 
 Please feel free to contact me to discuss potential opportunities at:
 jakediamondllc [at] gmail [dot] com
