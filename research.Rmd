@@ -16,8 +16,11 @@ All figures and results presented here are my own work, conducted (in [R](https:
 ***
 
 # **River Ecology** {#anchorriveco} 
+Over the 21st century, many rivers transformed from relatively low nutrient, low algal conditions to high nutrient, high algal conditions. Observing the negative effects of excess algae to our everyday activities, not to mention to river and ocean ecosystem health, many countries, states, and cities developed management plans to reduce nutrient loads to rivers. It can take a long time for these management plans to come to fruition, but there is recent indications that a shift is taking place.
 
-[Stream and river ecology](https://www.nature.com/scitable/knowledge/library/rivers-and-streams-life-in-flowing-water-23587918/)
+We studied such a shift in the Loire River. The Loire River is the longest river in France and is often referred to as one of the last "wild" rivers of Europe due to its relatively unobstructed path from mountains to sea.
+
+Through several lines of evidence, we show that the Loire River underwent a large and rapid shift from "eutrophic" conditions back to "oligotrophic" conditions in the early 2000's. This has promising implications for how quickly freshwater ecosystems can respond to water quality and landscape management changes. Moreover, it provides a fascinating case study for understanding ecological processes in large rivers in the context of global change.
 
 <div style= "float:right;position: relative;margin-left: 20px">
 ```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
@@ -25,16 +28,18 @@ knitr::include_graphics("images/loire_conceptual_figure.jpg")
 ```
 </div>
 
-when black ash is lost, a wetter and more marsh-like ecosystem persists, with implications for an [alternative stable state](https://en.wikipedia.org/wiki/Alternative_stable_state). 
-
 You can read about it [here](./docs/Diamond et al_2021_RegimeShiftsLoire.pdf).
+
+This work is ongoing and we are continuing to investigate the causes and consequences of this ecosystem shift, particularly with respect to how carbon is processed and emitted to the atmosphere.  
 
 **Co-authors:**  
 [Florentina Moatar](https://florentina-moatar.com/)  
 [Gilles Pinay](https://scholar.google.fr/citations?hl=en&user=gZAJ_rQAAAAJ)  
 [Matthew Cohen](http://sfrc.ufl.edu/ecohydrology/)  
-[Anthony Maire](https://scholar.google.fr/citations?user=W2Q6WuQAAAAJ&hl=fr&inst=13410158990364976897)
- 
+[Anthony Maire](https://scholar.google.fr/citations?user=W2Q6WuQAAAAJ&hl=fr&inst=13410158990364976897)  
+[Enrico Bertuzzo](https://www.unive.it/data/5115/13227245/pubb_anno)  
+
+Funding provided by the Water Agency of Loire Catchment AELB, Université de Tours, and EUR H2O’Lyon.
 
 ***
 
@@ -47,11 +52,11 @@ This idea is so intriguing to me!
 ## Plant-water Interactions and Disturbance
 
 <div style= "float:left;position: relative;margin-right: 20px">
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
 knitr::include_graphics("images/concept_ash.jpg")
 ```
 \
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
 knitr::include_graphics("images/ash_fig5a.jpg")
 ```
 </div>
@@ -82,11 +87,11 @@ Tech William J. Dann Fellowship.
 ## Wetland Microtopography {#anchormicro}
 
 <div style= "float:right;position: relative;margin-left: 20px">
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
 knitr::include_graphics("images/huho.jpg")
 ```
 \
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
 knitr::include_graphics("images/tls.jpg")
 ```
 </div>
@@ -113,21 +118,57 @@ wetland microtopography](./docs/Diamond et al_2020_A little relief): what it is,
 # **Biogeochemistry** {#anchorbgc} 
 
 ## Headwater stream biogeochemistry
+
+Headwater streams are the capillaries of river networks, comprising the majority (e.g., 70-85%) of the total stream length. Despite their small individual sizes, headwaters collectively contribute the majority of annual flow and nitrogen export to river networks. Importantly, headwaters also have a high sensitivity to disturbance, meaning that small changes to their upstream area have large effects on their hydrology and health of their biota. 
+
+Under a changing climate, many headwater streams are becoming increasingly dry and warm. Given these changes, humans living in headwater environments are planning on either groundwater resources or increasing surface water storage (i.e., dams) for additional freshwater. Frustratingly, both of these solutions will likely exacerbate drying and warming of headwater streams. In this context, we sought to understand how headwater streams are responding to these changing drivers. 
+
 <div style= "float:left;position: relative;margin-right: 20px">
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
-knitr::include_graphics("images/gpp_area.png")
+```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+knitr::include_graphics("images/hypoxia_summary_all.png")
 ```
 </div>
 
+In particular, we were interested in how drying and warming may affect the instances of stream hypoxia (dissolved oxygen at levels low enough to impair organisms). Hypoxia is a useful and easy to measure environmental indicator of ecosystem health, and is of practical interest to fishermen, swimmers, and casual stream passers-by alike.
+
+Across 78 sites over 2 years, we observed that drying, rewetting after drying, and storm events were strong predictors of hypoxia -- each with characteristic patterns (timing, magnitude, and duration) of hypoxia. We further found that warmer, low-slope streams were the most susceptible to hypoxia events.
+
+You can read about it [here](./docs/Diamond et al_2023_hypoxia.pdf).
+\ 
+
+<div style= "float:right;position: relative;margin-left: 20px">
+```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+knitr::include_graphics("images/gpp_area.png")
+```
+</div>
+Using the same dissolved oxygen data, we were able to also calculate the rates of gross primary production and ecosystem respiration of headwater streams across 5 different river networks. We observed that gross primary production increases predictably from the smallest to the largest streams, whereas ecosystem respiration was far more variable. We also observed that dissolved oxygen was a good predictor of dissolved organic carbon quality and denitrification potential.
+
+You can read about it [here](./docs/Diamond_ecoindicators.pdf).
+\ 
+
+As part of the same suite of studies, we also were able to investigate the synchrony of stream dissolved oxygen signals within and across river networks. 
+
+You can read about it [here](./docs/Diamond et al_2022_DOSynchrony.pdf).
+\ 
+
 **Co-authors:**  
-[Susana Bernal](https://www.ceab.csic.es/en/member/susanna-bernal-berenguer/) 
-[David Lewis](https://scholar.google.com/citations?user=qlaN2UoAAAAJ&hl=en&inst=13410158990364976897)
+[Susana Bernal](https://www.ceab.csic.es/en/member/susanna-bernal-berenguer/)  
+[David Lewis](https://scholar.google.com/citations?user=qlaN2UoAAAAJ&hl=en&inst=13410158990364976897)  
+[Florentina Moatar](https://florentina-moatar.com/)  
+[Gilles Pinay](https://scholar.google.fr/citations?hl=en&user=gZAJ_rQAAAAJ)  
+[Matthew Cohen](http://sfrc.ufl.edu/ecohydrology/)  
+[Jay Zarnetske](https://www.zarnetskelab.com/)  
+[Anna Lupon](https://www.annalupon.com/)  
+[Amine Boukra](https://www.researchgate.net/profile/Amine-Boukra-2)  
+[Matthieu Masson](https://www.researchgate.net/profile/Matthieu-Masson)  
+
+Funding provided by the Loire-Bretagne Water Agency and the Rhone-Mediteranee-Corse Water Agency.  
 
 ***
 
 ## Wetland biogeochemistry
 
-<div style= "float:right;position: relative;margin-left: 20px">
+<div style= "float:left;position: relative;margin-right: 20px">
 ```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
 knitr::include_graphics("images/shannon_sfs.jpg")
 ```
@@ -151,6 +192,12 @@ As part of my dissertation work, I tested this hypothesis by investigating [micr
 Are plants actively changing their environment to their own advantage? ([Could be!](https://www.youtube.com/watch?v=CrrSAc-vjG4)) This is a very difficult question to answer, but this research may add another piece of evidence to our growing understanding of the agency of plants.
 
 You can read about it [here](./docs/Diamond et al_2020_Microtopo organizing.pdf).
+\ 
+
+Using principles from [landscape ecology](https://www.researchgate.net/publication/228638056_Landscape_Ecology_What_Is_the_State_of_the_Science), we also used spatial analysis of microtopgraphic features to evaluate evidence of positive plant-water-soil feedbacks ("autogenesis"), which you can read about [here](./docs/Diamond et al_Microtopo pattern.pdf).
+\ 
+
+For a more complete discussion on wetland microtopgraphy in general, you can read our synthesis here [here](./docs/Diamond et al_2020_A little relief.pdf).
 \ 
 
 **Co-authors:**  
@@ -211,6 +258,6 @@ You can read about it [here](./docs/McLaughlin et al_2019_Wetland connectivity.p
 **Co-authors:**  
 [Daniel McLaughlin](https://frec.vt.edu/people/McLaughlin.html)  
 [Matt Cohen](http://sfrc.ufl.edu/ecohydrology/)  
-[Carlos Quintero](https://www.researchgate.net/profile/Carlos_Quintero24)
+[Carlos Quintero](https://www.researchgate.net/profile/Carlos_Quintero24)  
 [Jim Heffernan](https://heffernanlab.weebly.com/)
 

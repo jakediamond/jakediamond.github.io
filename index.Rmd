@@ -9,7 +9,9 @@ knitr::include_graphics("images/jake_cordillera_central.jpg")
 
 ## Greetings
 
-Hope you are well reading this. My name is Jake and I am an environmental data scientist. I'm interested in questions like:
+Hope you are well reading this. My name is Jake and I am an environmental data scientist. I offer services in data analysis, synthesis, and interpretation, which you can learn more about on my [business](https://jakediamond.science/business.html) page.
+
+In my [research](https://jakediamond.science/research.html), I'm interested in questions like:
 
 1. How do ecosystems [self-organize](https://en.wikipedia.org/wiki/Self-organization)?
 2. What can [emergent properties](https://en.wikipedia.org/wiki/Emergence#Emergent_structures_in_nature) of ecosystems tell us about their internal processes?

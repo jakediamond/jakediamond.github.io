@@ -1,0 +1,28 @@
+---
+pagetitle: Jake Diamond LLC
+---
+## Jake Diamond LLC
+
+Business services offered:
+
+* Statistical analysis and visualization for:
+  + time series
+  + geospatial and satellite data
+  + experimental results
+  + environmental models
+  + machine learning
+* Reproducible code to develop:
+  + analytical workflows
+  + automated figure and table creation
+  + web queries for text and numerical data
+* Scientific report writing
+
+I am open to working with all kinds of data and subject areas, but my expertise lies in:
+
+* Ecology
+* Hydrology
+* Soils
+
+Please feel free to contact me to discuss potential opportunities at:
+jakediamondllc [at] gmail [dot] com
+  
