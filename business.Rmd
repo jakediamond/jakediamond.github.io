@@ -2,17 +2,15 @@
 pagetitle: "Environmental data consulting | Jake Diamond LLC"
 ---
 
-<p class="eyebrow">Jake Diamond LLC / Consulting</p>
-<h1>Turn environmental data<br>into understanding.</h1>
-<p class="intro-lead narrow">Thoughtful analysis, reproducible code, and clear scientific communication.</p>
-<p class="narrow">I offer data analysis, synthesis, and interpretation across subject areas, with particular expertise in ecology, hydrology, water chemistry, and statistics.</p>
-<div class="text-actions"><a class="primary-link" href="mailto:jakediamondllc@gmail.com">Let's discuss your project <span aria-hidden="true">↗</span></a></div>
+<div class="page-label">Consulting</div>
+<h1>Jake Diamond LLC</h1>
+<p>I offer services in data analysis, synthesis, and interpretation.</p>
 
-<section class="service-list" aria-label="Consulting services">
-<div><span class="item-number">01</span><h2>Analysis &amp; visualization</h2><p>Find the patterns in time series, geospatial and satellite data, experimental results, and environmental models—including machine learning.</p></div>
-<div><span class="item-number">02</span><h2>Reproducible workflows</h2><p>Build analytical workflows, automate figures and tables, and query the web for text and numerical data with reproducible code.</p></div>
-<div><span class="item-number">03</span><h2>Scientific writing</h2><p>Bring analysis and interpretation together in scientific reports that communicate your findings clearly.</p></div>
-</section>
+## Services
+
+- Statistical analysis and visualization of time series, geospatial and satellite data, experimental results, environmental models, and machine learning results.
+- Reproducible code for analytical workflows, automated figure and table creation, and web queries for text and numerical data.
+- Scientific report writing.
 
 ## Areas of expertise
 
@@ -53,4 +51,6 @@ I am open to working with all kinds of data and subject areas. My particular exp
 
 </div>
 
-<section class="contact-band"><p class="eyebrow">Have something in mind?</p><h2>Let's work through it together.</h2><p>Tell me a little about your data, your question, and what you hope to learn.</p><a href="mailto:jakediamondllc@gmail.com">jakediamondllc@gmail.com <span aria-hidden="true">↗</span></a></section>
+## Contact
+
+Please feel free to contact me to discuss potential opportunities: [jakediamondllc@gmail.com](mailto:jakediamondllc@gmail.com).

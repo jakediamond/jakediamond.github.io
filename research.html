@@ -32,9 +32,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<meta name="description" content="Jake Diamond is an environmental data scientist exploring ecology, hydrology, and biogeochemistry. Research, publications, and environmental data consulting.">
+<meta name="description" content="Jake Diamond, Programme Specialist for Water Quality and Ecohydrology at UNESCO. Personal website with research, figures, and publications on rivers, wetlands, and ecosystem processes.">
 <meta name="author" content="Jake Diamond">
-<meta name="theme-color" content="#f6f4ed">
+<meta name="theme-color" content="#ffffff">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -95,80 +95,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -233,43 +159,13 @@ $(document).ready(function () {
 
 
 
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Jake Diamond</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About</a>
-</li>
-<li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="business.html">Consulting</a>
-</li>
-<li>
-  <a href="./docs/CV.pdf">CV</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="https://github.com/jakediamond">GitHub</a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<aside class="site-rail" aria-label="Site navigation">
+<a class="site-name" href="index.html">Jake <br>Diamond<span aria-hidden="true">.</span></a>
+<p class="site-subtitle">Water quality<br>&amp; ecohydrology</p>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About me</a><a href="research.html">Research</a><a href="business.html">Consulting</a><a href="docs/CV.pdf">CV <small>(archive PDF)</small></a></nav>
+<div class="elsewhere"><p>Elsewhere</p><a href="https://fr.linkedin.com/in/jacobsdiamond">LinkedIn</a><a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google Scholar</a><a href="https://orcid.org/0000-0002-5392-5707">ORCID</a><a href="https://github.com/jakediamond">GitHub</a></div>
+<p class="rail-contact"><a href="mailto:diamondjacob@gmail.com">Email me</a></p>
+</aside>
 
 <div id="header">
 
@@ -279,35 +175,35 @@ $(document).ready(function () {
 </div>
 
 
-<p class="eyebrow">
-Research / A closer look
-</p>
+<div class="page-label">
+Research
+</div>
 <h1>
-Water connects<br>everything.
+Research
 </h1>
-<p class="intro-lead narrow">
-From the smallest differences in wetland elevation to entire river
-networks, I study how water shapes ecosystems—and how ecosystems shape
-water.
+<p>
+I typically think about ecosystems through the lenses of hydrology,
+ecosystem ecology, and biogeochemistry. Below are summaries of my work,
+with figures and links to the papers.
 </p>
 <div class="profile-links">
 <a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google
-Scholar
-↗</a><a href="https://www.researchgate.net/profile/Jacob_Diamond">ResearchGate
-↗</a><a href="https://orcid.org/0000-0002-5392-5707">ORCID ↗</a>
+Scholar</a> ·
+<a href="https://www.researchgate.net/profile/Jacob_Diamond">ResearchGate</a>
+· <a href="https://orcid.org/0000-0002-5392-5707">ORCID</a>
 </div>
 <p class="research-note">
-All figures and results here are my own work, conducted in R in close
-collaboration with colleagues and mentors.
+All figures and results presented here are my own work, conducted in R
+in close collaboration with colleagues and mentors.
 </p>
 <nav class="research-index" aria-label="Explore research topics">
 <div class="index-header">
 <h2>
-Find a thread to follow
+On this page
 </h2>
 <div class="research-search" hidden="">
-<label for="topic-search">Find a research
-topic</label><input id="topic-search" type="search" placeholder="Try carbon, wetlands, or water quality…" aria-controls="topic-list">
+<label for="topic-search">Filter
+topics</label><input id="topic-search" type="search" placeholder="e.g. carbon, wetlands, water quality" aria-controls="topic-list">
 <p id="topic-status" role="status" aria-live="polite">
 </p>
 </div>
@@ -315,31 +211,31 @@ topic</label><input id="topic-search" type="search" placeholder="Try carbon, wet
 <ul id="topic-list">
 <li data-keywords="water quality algae eutrophication loire management nutrients">
 <a href="#anchorriveco"><span>01 / River ecology</span><span>River
-recovery &amp; regime shifts ↗</span></a>
+recovery &amp; regime shifts</span></a>
 </li>
 <li data-keywords="forest ash emerald borer evapotranspiration disturbance vegetation">
 <a href="#plant-water-interactions-and-disturbance"><span>02 /
-Ecohydrology</span><span>Plant–water interactions ↗</span></a>
+Ecohydrology</span><span>Plant–water interactions</span></a>
 </li>
 <li data-keywords="wetlands lidar tls hummocks hollows elevation spatial patterns">
 <a href="#anchormicro"><span>03 / Ecohydrology</span><span>Wetland
-microtopography ↗</span></a>
+microtopography</span></a>
 </li>
 <li data-keywords="carbon nitrogen metabolism hypoxia oxygen temperature streams synchrony">
 <a href="#headwater-stream-biogeochemistry"><span>04 /
-Biogeochemistry</span><span>Headwater streams ↗</span></a>
+Biogeochemistry</span><span>Headwater streams</span></a>
 </li>
 <li data-keywords="carbon soil nutrients phosphorus peat plants wetlands">
 <a href="#wetland-biogeochemistry"><span>05 /
-Biogeochemistry</span><span>Wetland biogeochemistry ↗</span></a>
+Biogeochemistry</span><span>Wetland biogeochemistry</span></a>
 </li>
 <li data-keywords="water quality concentration discharge chemistry florida catchment">
 <a href="#watershed-hydrochemistry"><span>06 /
-Hydrology</span><span>Watershed hydrochemistry ↗</span></a>
+Hydrology</span><span>Watershed hydrochemistry</span></a>
 </li>
 <li data-keywords="wetlands cypress flow water levels network connectivity">
 <a href="#wetlandscape-connectivity"><span>07 /
-Hydrology</span><span>Wetlandscape connectivity ↗</span></a>
+Hydrology</span><span>Wetlandscape connectivity</span></a>
 </li>
 </ul>
 <p class="no-topics" hidden>
@@ -696,7 +592,7 @@ Quintero</a><br />
 </div>
 </div>
 
-<footer class="site-footer"><div><a class="footer-name" href="index.html">Jake Diamond</a><p>Environmental data scientist.<br>Curious about the connections.</p></div><nav aria-label="Footer"><a href="mailto:diamondjacob@gmail.com">Email</a><a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google Scholar</a><a href="https://orcid.org/0000-0002-5392-5707">ORCID</a><a href="docs/CV.pdf">CV <span class="file-label">PDF</span></a></nav><a class="back-top" href="#">Back to top ↑</a></footer>
+<footer class="site-footer"><span>Jake Diamond · <a href="mailto:diamondjacob@gmail.com">Email</a></span><a href="#">Back to top ↑</a></footer>
 <script src="site.js" defer></script>
 
 

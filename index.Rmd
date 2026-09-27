@@ -1,25 +1,33 @@
 ---
-pagetitle: "Jake Diamond | Environmental data scientist"
+pagetitle: "Jake Diamond | Water quality and ecohydrology"
 ---
 
-<div class="home-intro">
-<div class="intro-copy">
-<p class="eyebrow">Environmental data science · Ecology · Hydrology</p>
-<h1>Following water.<br>Finding connections.</h1>
-<p class="intro-lead">I'm Jake Diamond, an environmental data scientist curious about how ecosystems work—and what we can learn by looking a little closer.</p>
-<p>I study the connections between water, landscapes, and living things. I also help people make sense of environmental data through analysis, synthesis, and interpretation.</p>
-<div class="text-actions"><a class="primary-link" href="research.html">Explore my research <span aria-hidden="true">↗</span></a><a href="business.html">Work with me <span aria-hidden="true">→</span></a></div>
+<div class="page-label">jakediamond.science</div>
+<h1>Jake Diamond</h1>
+<div class="home-top">
+<div>
+<p class="hello">Greetings!</p>
+<p>Hope you are well reading this. My name is Jake and I work on water quality and ecohydrology.</p>
+<p>I am now a <strong>Programme Specialist for Water Quality and Ecohydrology at UNESCO</strong>, in Paris.</p>
+<p>My background is in environmental data science, hydrology, ecosystem ecology, and biogeochemistry. This website has some of my research, figures, and publications.</p>
+<p><a href="about.html">More about me</a> · <a href="mailto:diamondjacob@gmail.com">Get in touch</a></p>
 </div>
-<figure class="field-portrait"><img src="images/jake_cordillera_central.jpg" width="800" height="600" alt="Jake on a hiking trail in the green mountains of the Cordillera Central"><figcaption><span>01 / In the field</span><span>Cordillera Central</span></figcaption></figure>
+<figure class="home-photo"><img src="images/jake_cordillera_central.jpg" alt="Jake hiking in the Cordillera Central" width="400" height="300"><figcaption>Cordillera Central</figcaption></figure>
 </div>
 
-<section class="question-section" aria-labelledby="questions-heading">
-<div class="section-intro"><p class="eyebrow">The questions that keep me curious</p><h2 id="questions-heading">An ecosystem is more<br>than the sum of its parts.</h2><p>I approach these questions through hydrology, ecosystem ecology, and biogeochemistry.</p></div>
-<ol class="question-list">
-<li><span class="item-number" aria-hidden="true">01</span><div><h3>How do ecosystems organize themselves?</h3><p>Exploring the feedbacks between plants, water, and soil.</p><a href="research.html#anchormicro">Wetland microtopography <span aria-hidden="true">↗</span></a></div></li>
-<li><span class="item-number" aria-hidden="true">02</span><div><h3>What can patterns tell us about processes?</h3><p>Looking for the workings of an ecosystem in the signals it leaves behind.</p><a href="research.html#anchorbgc">Biogeochemistry <span aria-hidden="true">↗</span></a></div></li>
-<li><span class="item-number" aria-hidden="true">03</span><div><h3>How can understanding lead to better stewardship?</h3><p>Connecting ecosystem science with environmental resource management.</p><a href="research.html#anchorriveco">River ecology <span aria-hidden="true">↗</span></a></div></li>
+<section class="research-sampler" aria-labelledby="research-heading">
+<div class="section-line"><h2 id="research-heading">Research</h2><a href="research.html">All research &amp; papers →</a></div>
+<p>I'm interested in questions like:</p>
+<ol class="questions">
+<li>How do ecosystems <a href="research.html#anchormicro">self-organize</a>?</li>
+<li>What can emergent properties of ecosystems tell us about their <a href="research.html#anchorbgc">internal processes</a>?</li>
+<li>How can we use our understanding of ecosystems to improve <a href="research.html#anchorriveco">resource management and human health</a>?</li>
 </ol>
+<div class="research-figures">
+<figure><a href="research.html#anchormicro"><img src="images/huho.jpg" alt="Hummocks and hollows in a forested wetland" width="300" height="240"><span>Wetland microtopography</span></a><figcaption>Plants, water, and the shape of the ground.</figcaption></figure>
+<figure><a href="research.html#anchorriveco"><img src="images/loire_conceptual_figure.jpg" alt="Diagram of ecosystem change in the Loire River" width="300" height="240"><span>River ecology</span></a><figcaption>Nutrients, algae, and changes in the Loire.</figcaption></figure>
+<figure><a href="research.html#headwater-stream-biogeochemistry"><img src="images/hypoxia_summary_all.png" alt="Research figure summarizing hypoxia in headwater streams" width="300" height="240"><span>Headwater streams</span></a><figcaption>Dissolved oxygen, drying, and warming.</figcaption></figure>
+</div>
 </section>
 
-<section class="contact-band" aria-labelledby="contact-heading"><p class="eyebrow">Science starts with a conversation</p><h2 id="contact-heading">Have a question worth exploring?</h2><p>For research, collaborations, or just to say hello.</p><a href="mailto:diamondjacob@gmail.com">diamondjacob@gmail.com <span aria-hidden="true">↗</span></a></section>
+<section class="home-contact"><h2>Contact</h2><p><a href="mailto:diamondjacob@gmail.com">diamondjacob@gmail.com</a></p><p>Thank you for visiting!</p></section>

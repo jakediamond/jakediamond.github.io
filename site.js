@@ -17,14 +17,8 @@
     skip.textContent = 'Skip to content';
     document.body.prepend(skip);
   }
-  const toggle = document.querySelector('.navbar-toggle');
-  if (toggle) {
-    toggle.setAttribute('aria-label', 'Toggle navigation');
-    toggle.setAttribute('aria-controls', 'navbar');
-    toggle.setAttribute('aria-expanded', 'false');
-  }
   const file = location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.navbar a').forEach(link => {
+  document.querySelectorAll('.site-rail nav a').forEach(link => {
     if (link.getAttribute('href') === file) link.setAttribute('aria-current', 'page');
   });
   const search = document.getElementById('topic-search');

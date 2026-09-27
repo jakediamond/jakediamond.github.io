@@ -1,32 +1,28 @@
 ---
-pagetitle: "About | Jake Diamond"
+pagetitle: "About me | Jake Diamond"
 ---
 
-<p class="eyebrow">A little about me</p>
-<h1>Curiosity, from the<br>landscape to the data.</h1>
-<div class="about-layout">
-<figure class="landscape-photo"><img src="images/cordillera_central.jpg" alt="Mountain landscape in the Cordillera Central" width="800" height="600"><figcaption>Cordillera Central / A view from the field</figcaption></figure>
-<div class="about-copy">
+<div class="page-label">About me</div>
+<h1>About me</h1>
 
-I am currently a research fellow with the [iNEST program](https://www.consorzioinest.it/en/) at the University of Venice Ca' Foscari. I am also hosted at the RiverLy research unit at [INRAe](https://riverly.inrae.fr/en/home) with the [EcoFlows team](https://ecoflows.inrae.fr/)
-in Lyon, France. I am working with [Enrico Bertuzzo](https://scholar.google.it/citations?user=J0y5sPoAAAAJ&hl=it&inst=13410158990364976897)
-to study the carbon budgets of river networks.
+I am a **Programme Specialist for Water Quality and Ecohydrology at UNESCO**, based in Paris. I work on global water programmes in support of the Sustainable Development Goals.
 
-We are currently focused on three major themes: 
+My research interests include ecosystem ecology, watershed hydrology, wetlands, and the connections between water, nutrients, and biota. I am also interested in how environmental data can support resource management and public policy.
 
-1) How much carbon in rivers comes from the landscape and how much comes from [stream and river metabolism](https://en.wikipedia.org/wiki/Stream_metabolism)? 
+<figure class="about-photo"><img src="images/cordillera_central.jpg" alt="Jake looking across a mountain landscape in the Cordillera Central" width="800" height="600"><figcaption>Cordillera Central</figcaption></figure>
 
-2) How does this amount of carbon in rivers vary across space and time?
+## Before UNESCO
 
-3) How does river network structure, like the number of confluences and their orientation,
-influence the availability of carbon in river networks?
+I was a research fellow at the University of Venice Ca' Foscari through the [iNEST programme](https://www.consorzioinest.it/en/), and worked with the [RiverLy research unit at INRAE](https://riverly.inrae.fr/en/home) in Lyon, France. With [Enrico Bertuzzo](https://scholar.google.it/citations?user=J0y5sPoAAAAJ&hl=it), I studied carbon budgets in river networks.
 
-These themes advance our understanding of how rivers and river networks link aquatic and terrestrial carbon cycles,
-and further grow our knowledge of the relative role of biologic versus physical controls on the carbon cycle. 
+That work considered how much river carbon comes from the surrounding landscape versus stream and river metabolism, how it varies across space and time, and how river network structure affects carbon availability.
 
+Before that, I worked as a research engineer at INRAE. I have a PhD in Ecohydrology from Virginia Tech and an MS in Ecohydrology from the University of Florida.
 
+## Links & contact
 
-[View my CV (PDF)](docs/CV.pdf){.primary-link}
-
-</div>
-</div>
+- [LinkedIn](https://fr.linkedin.com/in/jacobsdiamond)
+- [Google Scholar](https://scholar.google.com/citations?user=BsBmdAUAAAAJ&hl=en)
+- [ORCID](https://orcid.org/0000-0002-5392-5707)
+- [CV (PDF, earlier version)](docs/CV.pdf)
+- [diamondjacob@gmail.com](mailto:diamondjacob@gmail.com)

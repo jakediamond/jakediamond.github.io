@@ -7,21 +7,21 @@ output:
     toc_float: false
 ---
 
-<p class="eyebrow">Research / A closer look</p>
-<h1>Water connects<br>everything.</h1>
-<p class="intro-lead narrow">From the smallest differences in wetland elevation to entire river networks, I study how water shapes ecosystems—and how ecosystems shape water.</p>
-<div class="profile-links"><a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google Scholar ↗</a><a href="https://www.researchgate.net/profile/Jacob_Diamond">ResearchGate ↗</a><a href="https://orcid.org/0000-0002-5392-5707">ORCID ↗</a></div>
-<p class="research-note">All figures and results here are my own work, conducted in R in close collaboration with colleagues and mentors.</p>
+<div class="page-label">Research</div>
+<h1>Research</h1>
+<p>I typically think about ecosystems through the lenses of hydrology, ecosystem ecology, and biogeochemistry. Below are summaries of my work, with figures and links to the papers.</p>
+<div class="profile-links"><a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google Scholar</a> · <a href="https://www.researchgate.net/profile/Jacob_Diamond">ResearchGate</a> · <a href="https://orcid.org/0000-0002-5392-5707">ORCID</a></div>
+<p class="research-note">All figures and results presented here are my own work, conducted in R in close collaboration with colleagues and mentors.</p>
 <nav class="research-index" aria-label="Explore research topics">
-<div class="index-header"><h2>Find a thread to follow</h2><div class="research-search" hidden><label for="topic-search">Find a research topic</label><input id="topic-search" type="search" placeholder="Try carbon, wetlands, or water quality…" aria-controls="topic-list"><p id="topic-status" role="status" aria-live="polite"></p></div></div>
+<div class="index-header"><h2>On this page</h2><div class="research-search" hidden><label for="topic-search">Filter topics</label><input id="topic-search" type="search" placeholder="e.g. carbon, wetlands, water quality" aria-controls="topic-list"><p id="topic-status" role="status" aria-live="polite"></p></div></div>
 <ul id="topic-list">
-<li data-keywords="water quality algae eutrophication loire management nutrients"><a href="#anchorriveco"><span>01 / River ecology</span><span>River recovery &amp; regime shifts ↗</span></a></li>
-<li data-keywords="forest ash emerald borer evapotranspiration disturbance vegetation"><a href="#plant-water-interactions-and-disturbance"><span>02 / Ecohydrology</span><span>Plant–water interactions ↗</span></a></li>
-<li data-keywords="wetlands lidar tls hummocks hollows elevation spatial patterns"><a href="#anchormicro"><span>03 / Ecohydrology</span><span>Wetland microtopography ↗</span></a></li>
-<li data-keywords="carbon nitrogen metabolism hypoxia oxygen temperature streams synchrony"><a href="#headwater-stream-biogeochemistry"><span>04 / Biogeochemistry</span><span>Headwater streams ↗</span></a></li>
-<li data-keywords="carbon soil nutrients phosphorus peat plants wetlands"><a href="#wetland-biogeochemistry"><span>05 / Biogeochemistry</span><span>Wetland biogeochemistry ↗</span></a></li>
-<li data-keywords="water quality concentration discharge chemistry florida catchment"><a href="#watershed-hydrochemistry"><span>06 / Hydrology</span><span>Watershed hydrochemistry ↗</span></a></li>
-<li data-keywords="wetlands cypress flow water levels network connectivity"><a href="#wetlandscape-connectivity"><span>07 / Hydrology</span><span>Wetlandscape connectivity ↗</span></a></li>
+<li data-keywords="water quality algae eutrophication loire management nutrients"><a href="#anchorriveco"><span>01 / River ecology</span><span>River recovery &amp; regime shifts</span></a></li>
+<li data-keywords="forest ash emerald borer evapotranspiration disturbance vegetation"><a href="#plant-water-interactions-and-disturbance"><span>02 / Ecohydrology</span><span>Plant–water interactions</span></a></li>
+<li data-keywords="wetlands lidar tls hummocks hollows elevation spatial patterns"><a href="#anchormicro"><span>03 / Ecohydrology</span><span>Wetland microtopography</span></a></li>
+<li data-keywords="carbon nitrogen metabolism hypoxia oxygen temperature streams synchrony"><a href="#headwater-stream-biogeochemistry"><span>04 / Biogeochemistry</span><span>Headwater streams</span></a></li>
+<li data-keywords="carbon soil nutrients phosphorus peat plants wetlands"><a href="#wetland-biogeochemistry"><span>05 / Biogeochemistry</span><span>Wetland biogeochemistry</span></a></li>
+<li data-keywords="water quality concentration discharge chemistry florida catchment"><a href="#watershed-hydrochemistry"><span>06 / Hydrology</span><span>Watershed hydrochemistry</span></a></li>
+<li data-keywords="wetlands cypress flow water levels network connectivity"><a href="#wetlandscape-connectivity"><span>07 / Hydrology</span><span>Wetlandscape connectivity</span></a></li>
 </ul>
 <p class="no-topics" hidden>No matching topics. Try a broader term or clear your search.</p>
 </nav>
