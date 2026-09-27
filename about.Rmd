@@ -1,12 +1,12 @@
 ---
-pagetitle: Jake Diamond About Me
+pagetitle: "About | Jake Diamond"
 ---
 
-\
-\
-```{r,out.width = "400px",dpi = 600,align = "center", out.extra = 'style="display:block; margin:auto; padding:2px; background-color:#000000"', echo=FALSE}
-knitr::include_graphics("images/cordillera_central.jpg")
-```
+<p class="eyebrow">A little about me</p>
+<h1>Curiosity, from the<br>landscape to the data.</h1>
+<div class="about-layout">
+<figure class="landscape-photo"><img src="images/cordillera_central.jpg" alt="Mountain landscape in the Cordillera Central" width="800" height="600"><figcaption>Cordillera Central / A view from the field</figcaption></figure>
+<div class="about-copy">
 
 I am currently a research fellow with the [iNEST program](https://www.consorzioinest.it/en/) at the University of Venice Ca' Foscari. I am also hosted at the RiverLy research unit at [INRAe](https://riverly.inrae.fr/en/home) with the [EcoFlows team](https://ecoflows.inrae.fr/)
 in Lyon, France. I am working with [Enrico Bertuzzo](https://scholar.google.it/citations?user=J0y5sPoAAAAJ&hl=it&inst=13410158990364976897)
@@ -24,3 +24,9 @@ influence the availability of carbon in river networks?
 These themes advance our understanding of how rivers and river networks link aquatic and terrestrial carbon cycles,
 and further grow our knowledge of the relative role of biologic versus physical controls on the carbon cycle. 
 
+
+
+[View my CV (PDF)](docs/CV.pdf){.primary-link}
+
+</div>
+</div>

@@ -1,21 +1,32 @@
 ---
 pagetitle: Jake Diamond Research
-output: 
+output:
   html_document:
-    toc: true 
+    toc: false
     toc_depth: 2
-    toc_float: true
+    toc_float: false
 ---
 
-<center>[Google Scholar](https://scholar.google.com/citations?user=BsBmdAUAAAAJ&hl=en)  
-[Research Gate](https://www.researchgate.net/profile/Jacob_Diamond)  
-[ORCID: 0000-0002-5392-5707](http://orcid.org/0000-0002-5392-5707)  
-All figures and results presented here are my own work, conducted (in [R](https://www.r-project.org/)) in close collaboration with several colleagues and mentors.
-</center> 
+<p class="eyebrow">Research / A closer look</p>
+<h1>Water connects<br>everything.</h1>
+<p class="intro-lead narrow">From the smallest differences in wetland elevation to entire river networks, I study how water shapes ecosystems—and how ecosystems shape water.</p>
+<div class="profile-links"><a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google Scholar ↗</a><a href="https://www.researchgate.net/profile/Jacob_Diamond">ResearchGate ↗</a><a href="https://orcid.org/0000-0002-5392-5707">ORCID ↗</a></div>
+<p class="research-note">All figures and results here are my own work, conducted in R in close collaboration with colleagues and mentors.</p>
+<nav class="research-index" aria-label="Explore research topics">
+<div class="index-header"><h2>Find a thread to follow</h2><div class="research-search" hidden><label for="topic-search">Find a research topic</label><input id="topic-search" type="search" placeholder="Try carbon, wetlands, or water quality…" aria-controls="topic-list"><p id="topic-status" role="status" aria-live="polite"></p></div></div>
+<ul id="topic-list">
+<li data-keywords="water quality algae eutrophication loire management nutrients"><a href="#anchorriveco"><span>01 / River ecology</span><span>River recovery &amp; regime shifts ↗</span></a></li>
+<li data-keywords="forest ash emerald borer evapotranspiration disturbance vegetation"><a href="#plant-water-interactions-and-disturbance"><span>02 / Ecohydrology</span><span>Plant–water interactions ↗</span></a></li>
+<li data-keywords="wetlands lidar tls hummocks hollows elevation spatial patterns"><a href="#anchormicro"><span>03 / Ecohydrology</span><span>Wetland microtopography ↗</span></a></li>
+<li data-keywords="carbon nitrogen metabolism hypoxia oxygen temperature streams synchrony"><a href="#headwater-stream-biogeochemistry"><span>04 / Biogeochemistry</span><span>Headwater streams ↗</span></a></li>
+<li data-keywords="carbon soil nutrients phosphorus peat plants wetlands"><a href="#wetland-biogeochemistry"><span>05 / Biogeochemistry</span><span>Wetland biogeochemistry ↗</span></a></li>
+<li data-keywords="water quality concentration discharge chemistry florida catchment"><a href="#watershed-hydrochemistry"><span>06 / Hydrology</span><span>Watershed hydrochemistry ↗</span></a></li>
+<li data-keywords="wetlands cypress flow water levels network connectivity"><a href="#wetlandscape-connectivity"><span>07 / Hydrology</span><span>Wetlandscape connectivity ↗</span></a></li>
+</ul>
+<p class="no-topics" hidden>No matching topics. Try a broader term or clear your search.</p>
+</nav>
 
-***
-
-# **River Ecology** {#anchorriveco} 
+## **River Ecology** {#anchorriveco}
 Over the 21st century, many rivers transformed from relatively low nutrient, low algal conditions to high nutrient, high algal conditions. Observing the negative effects of excess algae to our everyday activities, not to mention to river and ocean ecosystem health, many countries, states, and cities developed management plans to reduce nutrient loads to rivers. It can take a long time for these management plans to come to fruition, but there is recent indications that a shift is taking place.
 
 We studied such a shift in the Loire River. The Loire River is the longest river in France and is often referred to as one of the last "wild" rivers of Europe due to its relatively unobstructed path from mountains to sea.
@@ -23,7 +34,7 @@ We studied such a shift in the Loire River. The Loire River is the longest river
 Through several lines of evidence, we show that the Loire River underwent a large and rapid shift from "eutrophic" conditions back to "oligotrophic" conditions in the early 2000's. This has promising implications for how quickly freshwater ecosystems can respond to water quality and landscape management changes. Moreover, it provides a fascinating case study for understanding ecological processes in large rivers in the context of global change.
 
 <div style= "float:right;position: relative;margin-left: 20px">
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "400px",dpi = 600, fig.alt = "Conceptual figure of ecosystem change in the Loire River", echo=FALSE}
 knitr::include_graphics("images/loire_conceptual_figure.jpg")
 ```
 </div>
@@ -43,28 +54,28 @@ Funding provided by the Water Agency of Loire Catchment AELB, Université de Tou
 
 ***
 
-# **Ecohydrology**
+## **Ecohydrology**
 
-[Ecohydrology](https://en.wikipedia.org/wiki/Ecohydrology) explores the interonnectedness of 
-biota and the hydrologic cycle through local and global feedbacks. 
-This idea is so intriguing to me! 
+[Ecohydrology](https://en.wikipedia.org/wiki/Ecohydrology) explores the interconnectedness of
+biota and the hydrologic cycle through local and global feedbacks.
+This idea is so intriguing to me!
 
-## Plant-water Interactions and Disturbance
+### Plant-water Interactions and Disturbance
 
 <div style= "float:left;position: relative;margin-right: 20px">
-```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, fig.alt = "Conceptual diagram of black ash forest disturbance", echo=FALSE}
 knitr::include_graphics("images/concept_ash.jpg")
 ```
 \
-```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, fig.alt = "Evapotranspiration results for black ash wetlands", echo=FALSE}
 knitr::include_graphics("images/ash_fig5a.jpg")
 ```
 </div>
 The invasive pest, the [emerald ash borer](http://www.emeraldashborer.info/), is causing large-scale loss of [ash trees](https://en.wikipedia.org/wiki/Fraxinus) in North America, with important consequences for forestry, aesthetics, and ecosystem functioning. For the first chapter of my dissertation, I analyzed the ecohydrologic impacts of forest loss for the unique and beautiful [black ash](https://en.wikipedia.org/wiki/Fraxinus_nigra) wetlands. We found three main things:  
 
-1. evapotranspiration (ET) limits the amount of water in black ash wetlands, and 
+1. evapotranspiration (ET) limits the amount of water in black ash wetlands, and
 2. ET is uniquely determined by vegetation type and physical structure, but more interestingly,  
-3. when black ash is lost, a wetter and more marsh-like ecosystem persists, with implications for an [alternative stable state](https://en.wikipedia.org/wiki/Alternative_stable_state). 
+3. when black ash is lost, a wetter and more marsh-like ecosystem persists, with implications for an [alternative stable state](https://en.wikipedia.org/wiki/Alternative_stable_state).
 
 You can read about it [here](./docs/Diamond et al. (2018).pdf).  
 
@@ -84,14 +95,14 @@ Tech William J. Dann Fellowship.
 
 ***
 
-## Wetland Microtopography {#anchormicro}
+### Wetland Microtopography {#anchormicro}
 
 <div style= "float:right;position: relative;margin-left: 20px">
-```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, fig.alt = "Wetland hummocks and hollows", echo=FALSE}
 knitr::include_graphics("images/huho.jpg")
 ```
 \
-```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, fig.alt = "Terrestrial laser scanning of wetland microtopography", echo=FALSE}
 knitr::include_graphics("images/tls.jpg")
 ```
 </div>
@@ -106,7 +117,7 @@ create their own microtopography. You can read about it [here](./docs/Diamond et
 3. related this structure to measured [biogeochemical variables](#anchorbgc)
 
 Finally, with the help of many other collaborators, we published the [first synthesis of
-wetland microtopography](./docs/Diamond et al_2020_A little relief): what it is, why it's ecologically important, and how it comes to be!
+wetland microtopography](./docs/Diamond et al_2020_A little relief.pdf): what it is, why it's ecologically important, and how it comes to be!
 
 **Co-authors:**  
 [Atticus Stovall](https://atticusstovall.wordpress.com/)  
@@ -115,16 +126,16 @@ wetland microtopography](./docs/Diamond et al_2020_A little relief): what it is,
 
 ***
 
-# **Biogeochemistry** {#anchorbgc} 
+## **Biogeochemistry** {#anchorbgc}
 
-## Headwater stream biogeochemistry
+### Headwater stream biogeochemistry
 
-Headwater streams are the capillaries of river networks, comprising the majority (e.g., 70-85%) of the total stream length. Despite their small individual sizes, headwaters collectively contribute the majority of annual flow and nitrogen export to river networks. Importantly, headwaters also have a high sensitivity to disturbance, meaning that small changes to their upstream area have large effects on their hydrology and health of their biota. 
+Headwater streams are the capillaries of river networks, comprising the majority (e.g., 70-85%) of the total stream length. Despite their small individual sizes, headwaters collectively contribute the majority of annual flow and nitrogen export to river networks. Importantly, headwaters also have a high sensitivity to disturbance, meaning that small changes to their upstream area have large effects on their hydrology and health of their biota.
 
-Under a changing climate, many headwater streams are becoming increasingly dry and warm. Given these changes, humans living in headwater environments are planning on either groundwater resources or increasing surface water storage (i.e., dams) for additional freshwater. Frustratingly, both of these solutions will likely exacerbate drying and warming of headwater streams. In this context, we sought to understand how headwater streams are responding to these changing drivers. 
+Under a changing climate, many headwater streams are becoming increasingly dry and warm. Given these changes, humans living in headwater environments are planning on either groundwater resources or increasing surface water storage (i.e., dams) for additional freshwater. Frustratingly, both of these solutions will likely exacerbate drying and warming of headwater streams. In this context, we sought to understand how headwater streams are responding to these changing drivers.
 
 <div style= "float:left;position: relative;margin-right: 20px">
-```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, fig.alt = "Summary of hypoxia patterns in headwater streams", echo=FALSE}
 knitr::include_graphics("images/hypoxia_summary_all.png")
 ```
 </div>
@@ -134,22 +145,22 @@ In particular, we were interested in how drying and warming may affect the insta
 Across 78 sites over 2 years, we observed that drying, rewetting after drying, and storm events were strong predictors of hypoxia -- each with characteristic patterns (timing, magnitude, and duration) of hypoxia. We further found that warmer, low-slope streams were the most susceptible to hypoxia events.
 
 You can read about it [here](./docs/Diamond et al_2023_hypoxia.pdf).
-\ 
+\
 
 <div style= "float:right;position: relative;margin-left: 20px">
-```{r,out.width = "300px",dpi = 300, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "300px",dpi = 300, fig.alt = "Gross primary production across stream sizes", echo=FALSE}
 knitr::include_graphics("images/gpp_area.png")
 ```
 </div>
 Using the same dissolved oxygen data, we were able to also calculate the rates of gross primary production and ecosystem respiration of headwater streams across 5 different river networks. We observed that gross primary production increases predictably from the smallest to the largest streams, whereas ecosystem respiration was far more variable. We also observed that dissolved oxygen was a good predictor of dissolved organic carbon quality and denitrification potential.
 
 You can read about it [here](./docs/Diamond_ecoindicators.pdf).
-\ 
+\
 
-As part of the same suite of studies, we also were able to investigate the synchrony of stream dissolved oxygen signals within and across river networks. 
+As part of the same suite of studies, we also were able to investigate the synchrony of stream dissolved oxygen signals within and across river networks.
 
 You can read about it [here](./docs/Diamond et al_2022_DOSynchrony.pdf).
-\ 
+\
 
 **Co-authors:**  
 [Susana Bernal](https://www.ceab.csic.es/en/member/susanna-bernal-berenguer/)  
@@ -166,14 +177,14 @@ Funding provided by the Loire-Bretagne Water Agency and the Rhone-Mediteranee-Co
 
 ***
 
-## Wetland biogeochemistry
+### Wetland biogeochemistry
 
 <div style= "float:left;position: relative;margin-right: 20px">
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "400px",dpi = 600, fig.alt = "Wetland diversity and biogeochemistry results", echo=FALSE}
 knitr::include_graphics("images/shannon_sfs.jpg")
 ```
 \
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "400px",dpi = 600, fig.alt = "Wetland soil chemistry results", echo=FALSE}
 knitr::include_graphics("images/soil_chem.jpg")
 ```
 </div>
@@ -182,23 +193,23 @@ In wetland systems like the black ash swamps that we study, the ground surface i
 
 H: black ash trees "create" their own hummocks through an evapoconcentration positive feedback loop, like so:
 
-1. black ash tree transpiration draws in dissolved nutrients from the surrounding area, which leads to 
-2. greater local primary production, which leads to 
-3. buildup of root mass/soil organic matter and also greater transpiration, which leads to 
+1. black ash tree transpiration draws in dissolved nutrients from the surrounding area, which leads to
+2. greater local primary production, which leads to
+3. buildup of root mass/soil organic matter and also greater transpiration, which leads to
 4. nutrient accumulation, and so on.
 
-As part of my dissertation work, I tested this hypothesis by investigating [microtopography](#anchormicro) and wetland biogeochemical variables such as nutrients, vegetative diversity, and primary production. We found evidence supporting the evapoconcentration feedback loop where hummocks were hotspots for soil phosphorus (and the passive evapotranspiration tracer, chloride!), understory diversity, and overstory biomass. 
+As part of my dissertation work, I tested this hypothesis by investigating [microtopography](#anchormicro) and wetland biogeochemical variables such as nutrients, vegetative diversity, and primary production. We found evidence supporting the evapoconcentration feedback loop where hummocks were hotspots for soil phosphorus (and the passive evapotranspiration tracer, chloride!), understory diversity, and overstory biomass.
 
 Are plants actively changing their environment to their own advantage? ([Could be!](https://www.youtube.com/watch?v=CrrSAc-vjG4)) This is a very difficult question to answer, but this research may add another piece of evidence to our growing understanding of the agency of plants.
 
 You can read about it [here](./docs/Diamond et al_2020_Microtopo organizing.pdf).
-\ 
+\
 
-Using principles from [landscape ecology](https://www.researchgate.net/publication/228638056_Landscape_Ecology_What_Is_the_State_of_the_Science), we also used spatial analysis of microtopgraphic features to evaluate evidence of positive plant-water-soil feedbacks ("autogenesis"), which you can read about [here](./docs/Diamond et al_Microtopo pattern.pdf).
-\ 
+Using principles from [landscape ecology](https://www.researchgate.net/publication/228638056_Landscape_Ecology_What_Is_the_State_of_the_Science), we also used spatial analysis of microtopographic features to evaluate evidence of positive plant-water-soil feedbacks ("autogenesis"), which you can read about [here](./docs/Diamond et al_Microtopo pattern.pdf).
+\
 
-For a more complete discussion on wetland microtopgraphy in general, you can read our synthesis here [here](./docs/Diamond et al_2020_A little relief.pdf).
-\ 
+For a more complete discussion on wetland microtopography in general, you can read our synthesis [here](./docs/Diamond et al_2020_A little relief.pdf).
+\
 
 **Co-authors:**  
 [Daniel McLaughlin](https://frec.vt.edu/people/McLaughlin.html)  
@@ -207,12 +218,12 @@ For a more complete discussion on wetland microtopgraphy in general, you can rea
 
 ***
 
-# **Hydrology**
+## **Hydrology**
 
-## Watershed Hydrochemistry
+### Watershed Hydrochemistry
 
 <div style= "float:right;position: relative;margin-left: 20px">
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "400px",dpi = 600, fig.alt = "Watershed concentration-discharge relationships", echo=FALSE}
 knitr::include_graphics("images/cq_fig1.jpg")
 ```
 </div>
@@ -233,14 +244,14 @@ Institute of Food and Agriculture (NIFA) via CRIS project FLA‐FOR‐
 
 ***
 
-## Wetlandscape Connectivity
+### Wetlandscape Connectivity
 
 <div style= "float:left;position: relative;margin-right: 20px">
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "400px",dpi = 600, fig.alt = "Wetland connectivity frequency results", echo=FALSE}
 knitr::include_graphics("images/spectrum_facet.jpg")
 ```
 \
-```{r,out.width = "400px",dpi = 600, out.extra = 'style="display:block;padding:1px; background-color:#000000"', echo=FALSE}
+```{r,out.width = "400px",dpi = 600, fig.alt = "Monthly hydrologic patterns in Big Cypress wetlands", echo=FALSE}
 knitr::include_graphics("images/bicy_monthly.jpg")
 ```
 </div>

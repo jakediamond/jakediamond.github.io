@@ -1,24 +1,25 @@
 ---
-pagetitle: Jake Diamond's Research Website
+pagetitle: "Jake Diamond | Environmental data scientist"
 ---
-\
-\
-```{r,out.width = "400px",dpi = 600,align = "right", out.extra = 'style="display:block; margin:auto; padding:2px; background-color:#000000"', echo=FALSE}
-knitr::include_graphics("images/jake_cordillera_central.jpg")
-```
 
-## Greetings
+<div class="home-intro">
+<div class="intro-copy">
+<p class="eyebrow">Environmental data science · Ecology · Hydrology</p>
+<h1>Following water.<br>Finding connections.</h1>
+<p class="intro-lead">I'm Jake Diamond, an environmental data scientist curious about how ecosystems work—and what we can learn by looking a little closer.</p>
+<p>I study the connections between water, landscapes, and living things. I also help people make sense of environmental data through analysis, synthesis, and interpretation.</p>
+<div class="text-actions"><a class="primary-link" href="research.html">Explore my research <span aria-hidden="true">↗</span></a><a href="business.html">Work with me <span aria-hidden="true">→</span></a></div>
+</div>
+<figure class="field-portrait"><img src="images/jake_cordillera_central.jpg" width="800" height="600" alt="Jake on a hiking trail in the green mountains of the Cordillera Central"><figcaption><span>01 / In the field</span><span>Cordillera Central</span></figcaption></figure>
+</div>
 
-Hope you are well reading this. My name is Jake and I am an environmental data scientist. I offer services in data analysis, synthesis, and interpretation, which you can learn more about on my [business](https://jakediamond.science/business.html) page.
+<section class="question-section" aria-labelledby="questions-heading">
+<div class="section-intro"><p class="eyebrow">The questions that keep me curious</p><h2 id="questions-heading">An ecosystem is more<br>than the sum of its parts.</h2><p>I approach these questions through hydrology, ecosystem ecology, and biogeochemistry.</p></div>
+<ol class="question-list">
+<li><span class="item-number" aria-hidden="true">01</span><div><h3>How do ecosystems organize themselves?</h3><p>Exploring the feedbacks between plants, water, and soil.</p><a href="research.html#anchormicro">Wetland microtopography <span aria-hidden="true">↗</span></a></div></li>
+<li><span class="item-number" aria-hidden="true">02</span><div><h3>What can patterns tell us about processes?</h3><p>Looking for the workings of an ecosystem in the signals it leaves behind.</p><a href="research.html#anchorbgc">Biogeochemistry <span aria-hidden="true">↗</span></a></div></li>
+<li><span class="item-number" aria-hidden="true">03</span><div><h3>How can understanding lead to better stewardship?</h3><p>Connecting ecosystem science with environmental resource management.</p><a href="research.html#anchorriveco">River ecology <span aria-hidden="true">↗</span></a></div></li>
+</ol>
+</section>
 
-In my [research](https://jakediamond.science/research.html), I'm interested in questions like:
-
-1. How do ecosystems [self-organize](https://en.wikipedia.org/wiki/Self-organization)?
-2. What can [emergent properties](https://en.wikipedia.org/wiki/Emergence#Emergent_structures_in_nature) of ecosystems tell us about their internal processes?
-3. How can we use our understanding of ecosystems to improve [resource management](https://en.wikipedia.org/wiki/Environmental_resource_management) and human health?
-
-I typically think about these questions through the lenses of hydrology, [ecosystem ecology](https://en.wikipedia.org/wiki/Ecosystem_ecology), and biogeochemistry.
-
-Thank you for visiting!
-
-**Contact:** diamondjacob [at] gmail [dot] com
+<section class="contact-band" aria-labelledby="contact-heading"><p class="eyebrow">Science starts with a conversation</p><h2 id="contact-heading">Have a question worth exploring?</h2><p>For research, collaborations, or just to say hello.</p><a href="mailto:diamondjacob@gmail.com">diamondjacob@gmail.com <span aria-hidden="true">↗</span></a></section>
