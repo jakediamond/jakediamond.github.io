@@ -2,7 +2,6 @@
 pagetitle: "About me | Jake Diamond"
 ---
 
-<div class="page-label">About me</div>
 <h1>About me</h1>
 
 I am a **Programme Specialist for Water Quality and Ecohydrology at UNESCO**, based in Paris. I work on global water programmes in support of the Sustainable Development Goals.
@@ -19,10 +18,10 @@ That work considered how much river carbon comes from the surrounding landscape 
 
 Before that, I worked as a research engineer at INRAE. I have a PhD in Ecohydrology from Virginia Tech and an MS in Ecohydrology from the University of Florida.
 
-## Links & contact
+## Links
 
 - [LinkedIn](https://fr.linkedin.com/in/jacobsdiamond)
 - [Google Scholar](https://scholar.google.com/citations?user=BsBmdAUAAAAJ&hl=en)
 - [ORCID](https://orcid.org/0000-0002-5392-5707)
 - [CV (PDF, earlier version)](docs/CV.pdf)
-- [diamondjacob@gmail.com](mailto:diamondjacob@gmail.com)
+- [GitHub](https://github.com/jakediamond)

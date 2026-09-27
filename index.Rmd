@@ -2,7 +2,6 @@
 pagetitle: "Jake Diamond | Water quality and ecohydrology"
 ---
 
-<div class="page-label">jakediamond.science</div>
 <h1>Jake Diamond</h1>
 <div class="home-top">
 <div>
@@ -10,7 +9,7 @@ pagetitle: "Jake Diamond | Water quality and ecohydrology"
 <p>Hope you are well reading this. My name is Jake and I work on water quality and ecohydrology.</p>
 <p>I am now a <strong>Programme Specialist for Water Quality and Ecohydrology at UNESCO</strong>, in Paris.</p>
 <p>My background is in environmental data science, hydrology, ecosystem ecology, and biogeochemistry. This website has some of my research, figures, and publications.</p>
-<p><a href="about.html">More about me</a> · <a href="mailto:diamondjacob@gmail.com">Get in touch</a></p>
+<p><a href="about.html">More about me</a></p>
 </div>
 <figure class="home-photo"><img src="images/jake_cordillera_central.jpg" alt="Jake hiking in the Cordillera Central" width="400" height="300"><figcaption>Cordillera Central</figcaption></figure>
 </div>
@@ -30,4 +29,4 @@ pagetitle: "Jake Diamond | Water quality and ecohydrology"
 </div>
 </section>
 
-<section class="home-contact"><h2>Contact</h2><p><a href="mailto:diamondjacob@gmail.com">diamondjacob@gmail.com</a></p><p>Thank you for visiting!</p></section>
+<p class="home-contact">Thank you for visiting!</p>

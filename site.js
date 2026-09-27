@@ -18,28 +18,7 @@
     document.body.prepend(skip);
   }
   const file = location.pathname.split('/').pop() || 'index.html';
-  document.querySelectorAll('.site-rail nav a').forEach(link => {
+  document.querySelectorAll('.site-header nav a').forEach(link => {
     if (link.getAttribute('href') === file) link.setAttribute('aria-current', 'page');
   });
-  const search = document.getElementById('topic-search');
-  if (!search) return;
-  document.querySelector('.research-search').hidden = false;
-  const topics = [...document.querySelectorAll('#topic-list li')];
-  const normalize = value => value.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
-  const filter = () => {
-    const words = normalize(search.value.trim()).split(/\s+/).filter(Boolean);
-    let count = 0;
-    topics.forEach(topic => {
-      const haystack = normalize(topic.textContent + ' ' + topic.dataset.keywords);
-      topic.hidden = !words.every(word => haystack.includes(word));
-      if (!topic.hidden) count++;
-    });
-    document.getElementById('topic-status').textContent = `${count} of ${topics.length} topics`;
-    document.querySelector('.no-topics').hidden = count > 0;
-  };
-  search.addEventListener('input', filter);
-  search.addEventListener('keydown', event => {
-    if (event.key === 'Escape') { search.value = ''; filter(); }
-  });
-  filter();
 })();

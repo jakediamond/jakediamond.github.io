@@ -1,5 +1,6 @@
 from html.parser import HTMLParser
 from pathlib import Path
+import re
 from urllib.parse import urlsplit,unquote
 root=Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
@@ -16,6 +17,8 @@ class Page(HTMLParser):
 files=['index.html','about.html','business.html','research.html'];issues=[]
 for f in files:
  page=Page(root/f)
+ source=(root/f).read_text()
+ if re.search(r"mailto:|[\w.+-]+@[\w.-]+\.[a-z]{2,}",source,re.I):issues.append(f"{f}: unmasked contact address")
  if page.h1!=1:issues.append(f'{f}: expected one main heading, found {page.h1}')
  for href in page.links:
   u=urlsplit(href)

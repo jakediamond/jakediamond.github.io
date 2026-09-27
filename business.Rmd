@@ -2,7 +2,6 @@
 pagetitle: "Environmental data consulting | Jake Diamond LLC"
 ---
 
-<div class="page-label">Consulting</div>
 <h1>Jake Diamond LLC</h1>
 <p>I offer services in data analysis, synthesis, and interpretation.</p>
 
@@ -53,4 +52,4 @@ I am open to working with all kinds of data and subject areas. My particular exp
 
 ## Contact
 
-Please feel free to contact me to discuss potential opportunities: [jakediamondllc@gmail.com](mailto:jakediamondllc@gmail.com).
+Please feel free to contact me to discuss potential opportunities: **jakediamondllc [at] gmail [dot] com**.
