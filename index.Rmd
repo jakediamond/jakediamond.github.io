@@ -1,24 +1,32 @@
 ---
-pagetitle: Jake Diamond's Research Website
+pagetitle: "Jake Diamond | Water quality and ecohydrology"
 ---
-\
-\
-```{r,out.width = "400px",dpi = 600,align = "right", out.extra = 'style="display:block; margin:auto; padding:2px; background-color:#000000"', echo=FALSE}
-knitr::include_graphics("images/jake_cordillera_central.jpg")
-```
 
-## Greetings
+<h1>Jake Diamond</h1>
+<div class="home-top">
+<div>
+<p class="hello">Greetings!</p>
+<p>Hope you are well reading this. My name is Jake and I work on water quality and ecohydrology.</p>
+<p>I am now a <strong>Programme Specialist for Water Quality and Ecohydrology at UNESCO</strong>, in Paris.</p>
+<p>My background is in environmental data science, hydrology, ecosystem ecology, and biogeochemistry. This website has some of my research, figures, and publications.</p>
+<p><a href="about.html">More about me</a></p>
+</div>
+<figure class="home-photo"><img src="images/jake_cordillera_central.jpg" alt="Jake hiking in the Cordillera Central" width="400" height="300"><figcaption>Cordillera Central</figcaption></figure>
+</div>
 
-Hope you are well reading this. My name is Jake and I am an environmental data scientist. I offer services in data analysis, synthesis, and interpretation, which you can learn more about on my [business](https://jakediamond.science/business.html) page.
+<section class="research-sampler" aria-labelledby="research-heading">
+<div class="section-line"><h2 id="research-heading">Research</h2><a href="research.html">All research &amp; papers →</a></div>
+<p>I'm interested in questions like:</p>
+<ol class="questions">
+<li>How do ecosystems <a href="research.html#anchormicro">self-organize</a>?</li>
+<li>What can emergent properties of ecosystems tell us about their <a href="research.html#anchorbgc">internal processes</a>?</li>
+<li>How can we use our understanding of ecosystems to improve <a href="research.html#anchorriveco">resource management and human health</a>?</li>
+</ol>
+<div class="research-figures">
+<figure><a href="research.html#anchormicro"><img src="images/huho.jpg" alt="Hummocks and hollows in a forested wetland" width="300" height="240"><span>Wetland microtopography</span></a><figcaption>Plants, water, and the shape of the ground.</figcaption></figure>
+<figure><a href="research.html#anchorriveco"><img src="images/loire_conceptual_figure.jpg" alt="Diagram of ecosystem change in the Loire River" width="300" height="240"><span>River ecology</span></a><figcaption>Nutrients, algae, and changes in the Loire.</figcaption></figure>
+<figure><a href="research.html#headwater-stream-biogeochemistry"><img src="images/hypoxia_summary_all.png" alt="Research figure summarizing hypoxia in headwater streams" width="300" height="240"><span>Headwater streams</span></a><figcaption>Dissolved oxygen, drying, and warming.</figcaption></figure>
+</div>
+</section>
 
-In my [research](https://jakediamond.science/research.html), I'm interested in questions like:
-
-1. How do ecosystems [self-organize](https://en.wikipedia.org/wiki/Self-organization)?
-2. What can [emergent properties](https://en.wikipedia.org/wiki/Emergence#Emergent_structures_in_nature) of ecosystems tell us about their internal processes?
-3. How can we use our understanding of ecosystems to improve [resource management](https://en.wikipedia.org/wiki/Environmental_resource_management) and human health?
-
-I typically think about these questions through the lenses of hydrology, [ecosystem ecology](https://en.wikipedia.org/wiki/Ecosystem_ecology), and biogeochemistry.
-
-Thank you for visiting!
-
-**Contact:** diamondjacob [at] gmail [dot] com
+<p class="home-contact">Thank you for visiting!</p>

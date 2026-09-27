@@ -11,9 +11,9 @@
 
 
 
-<title>Jake Diamond’s Research Website</title>
+<title>Jake Diamond | Water quality and ecohydrology</title>
 
-<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -32,12 +32,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
-<meta name="title" content="Jake Diamond's Website">
-<meta name="description" content="Jake Diamond's Research Website">
-<meta name="keywords" content="hydrology, ecology, ecohydrology, science, Jake Diamond LLC">
+<meta name="description" content="Jake Diamond, Programme Specialist for Water Quality and Ecohydrology at UNESCO. Personal website with research, figures, and publications on rivers, wetlands, and ecosystem processes.">
 <meta name="author" content="Jake Diamond">
+<meta name="theme-color" content="#ffffff">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -98,80 +95,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -236,46 +159,10 @@ $(document).ready(function () {
 
 
 
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Jake Diamond</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About Me</a>
-</li>
-<li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="business.html">Jake Diamond LLC</a>
-</li>
-<li>
-  <a href="./docs/CV.pdf">CV</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="http://github.com/jakediamond">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<header class="site-header">
+<a class="site-name" href="index.html">Jake Diamond</a>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About me</a><a href="research.html">Research</a><a href="business.html">Consulting</a></nav>
+</header>
 
 <div id="header">
 
@@ -285,37 +172,92 @@ $(document).ready(function () {
 </div>
 
 
-<p><br />
-<br />
-<img src="images/jake_cordillera_central.jpg" width="400px" style="display:block; margin:auto; padding:2px; background-color:#000000" /></p>
-<div id="greetings" class="section level2">
-<h2>Greetings</h2>
-<p>Hope you are well reading this. My name is Jake and I am an
-environmental data scientist. I offer services in data analysis,
-synthesis, and interpretation, which you can learn more about on my <a
-href="https://jakediamond.science/business.html">business</a> page.</p>
-<p>In my <a
-href="https://jakediamond.science/research.html">research</a>, I’m
-interested in questions like:</p>
-<ol style="list-style-type: decimal">
-<li>How do ecosystems <a
-href="https://en.wikipedia.org/wiki/Self-organization">self-organize</a>?</li>
-<li>What can <a
-href="https://en.wikipedia.org/wiki/Emergence#Emergent_structures_in_nature">emergent
-properties</a> of ecosystems tell us about their internal
-processes?</li>
-<li>How can we use our understanding of ecosystems to improve <a
-href="https://en.wikipedia.org/wiki/Environmental_resource_management">resource
-management</a> and human health?</li>
-</ol>
-<p>I typically think about these questions through the lenses of
-hydrology, <a
-href="https://en.wikipedia.org/wiki/Ecosystem_ecology">ecosystem
-ecology</a>, and biogeochemistry.</p>
-<p>Thank you for visiting!</p>
-<p><strong>Contact:</strong> diamondjacob [at] gmail [dot] com</p>
+<h1>
+Jake Diamond
+</h1>
+<div class="home-top">
+<div>
+<p class="hello">
+Greetings!
+</p>
+<p>
+Hope you are well reading this. My name is Jake and I work on water
+quality and ecohydrology.
+</p>
+<p>
+I am now a <strong>Programme Specialist for Water Quality and
+Ecohydrology at UNESCO</strong>, in Paris.
+</p>
+<p>
+My background is in environmental data science, hydrology, ecosystem
+ecology, and biogeochemistry. This website has some of my research,
+figures, and publications.
+</p>
+<p>
+<a href="about.html">More about me</a>
+</p>
 </div>
+<figure class="home-photo">
+<img src="images/jake_cordillera_central.jpg" alt="Jake hiking in the Cordillera Central" width="400" height="300">
+<figcaption>
+Cordillera Central
+</figcaption>
+</figure>
+</div>
+<section class="research-sampler" aria-labelledby="research-heading">
+<div class="section-line">
+<h2 id="research-heading">
+Research
+</h2>
+<a href="research.html">All research &amp; papers →</a>
+</div>
+<p>
+I’m interested in questions like:
+</p>
+<ol class="questions">
+<li>
+How do ecosystems <a href="research.html#anchormicro">self-organize</a>?
+</li>
+<li>
+What can emergent properties of ecosystems tell us about their
+<a href="research.html#anchorbgc">internal processes</a>?
+</li>
+<li>
+How can we use our understanding of ecosystems to improve
+<a href="research.html#anchorriveco">resource management and human
+health</a>?
+</li>
+</ol>
+<div class="research-figures">
+<figure>
+<a href="research.html#anchormicro"><img src="images/huho.jpg" alt="Hummocks and hollows in a forested wetland" width="300" height="240"><span>Wetland
+microtopography</span></a>
+<figcaption>
+Plants, water, and the shape of the ground.
+</figcaption>
+</figure>
+<figure>
+<a href="research.html#anchorriveco"><img src="images/loire_conceptual_figure.jpg" alt="Diagram of ecosystem change in the Loire River" width="300" height="240"><span>River
+ecology</span></a>
+<figcaption>
+Nutrients, algae, and changes in the Loire.
+</figcaption>
+</figure>
+<figure>
+<a href="research.html#headwater-stream-biogeochemistry"><img src="images/hypoxia_summary_all.png" alt="Research figure summarizing hypoxia in headwater streams" width="300" height="240"><span>Headwater
+streams</span></a>
+<figcaption>
+Dissolved oxygen, drying, and warming.
+</figcaption>
+</figure>
+</div>
+</section>
+<p class="home-contact">
+Thank you for visiting!
+</p>
 
+<footer class="site-footer"><span>Jake Diamond</span><a href="#">Back to top ↑</a></footer>
+<script src="site.js" defer></script>
 
 
 

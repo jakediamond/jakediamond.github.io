@@ -11,9 +11,9 @@
 
 
 
-<title>Jake Diamond Research</title>
+<title>Research | Jake Diamond</title>
 
-<script src="site_libs/header-attrs-2.23/header-attrs.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
 <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
@@ -29,18 +29,12 @@
        h6 {font-size: 12px;}
        code {color: inherit; background-color: rgba(0, 0, 0, 0.04);}
        pre:not([class]) { background-color: white }</style>
-<script src="site_libs/jqueryui-1.13.2/jquery-ui.min.js"></script>
-<link href="site_libs/tocify-1.9.1/jquery.tocify.css" rel="stylesheet" />
-<script src="site_libs/tocify-1.9.1/jquery.tocify.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-6.4.0/css/all.min.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-6.4.0/css/v4-shims.min.css" rel="stylesheet" />
-<meta name="title" content="Jake Diamond's Website">
-<meta name="description" content="Jake Diamond's Research Website">
-<meta name="keywords" content="hydrology, ecology, ecohydrology, science, Jake Diamond LLC">
+<meta name="description" content="Jake Diamond, Programme Specialist for Water Quality and Ecohydrology at UNESCO. Personal website with research, figures, and publications on rivers, wetlands, and ecosystem processes.">
 <meta name="author" content="Jake Diamond">
+<meta name="theme-color" content="#ffffff">
 
 <style type="text/css">
   code{white-space: pre-wrap;}
@@ -101,80 +95,6 @@ pre code {
 </style>
 
 
-<style type="text/css">
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #adb5bd;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
-}
-</style>
-
-<script type="text/javascript">
-// manage active state of menu based on current page
-$(document).ready(function () {
-  // active menu anchor
-  href = window.location.pathname
-  href = href.substr(href.lastIndexOf('/') + 1)
-  if (href === "")
-    href = "index.html";
-  var menuAnchor = $('a[href="' + href + '"]');
-
-  // mark the anchor link active (and if it's in a dropdown, also mark that active)
-  var dropdown = menuAnchor.closest('li.dropdown');
-  if (window.bootstrap) { // Bootstrap 4+
-    menuAnchor.addClass('active');
-    dropdown.find('> .dropdown-toggle').addClass('active');
-  } else { // Bootstrap 3
-    menuAnchor.parent().addClass('active');
-    dropdown.addClass('active');
-  }
-
-  // Navbar adjustments
-  var navHeight = $(".navbar").first().height() + 15;
-  var style = document.createElement('style');
-  var pt = "padding-top: " + navHeight + "px; ";
-  var mt = "margin-top: -" + navHeight + "px; ";
-  var css = "";
-  // offset scroll position for anchor links (for fixed navbar)
-  for (var i = 1; i <= 6; i++) {
-    css += ".section h" + i + "{ " + pt + mt + "}\n";
-  }
-  style.innerHTML = "body {" + pt + "padding-bottom: 40px; }\n" + css;
-  document.head.appendChild(style);
-});
-</script>
 
 <!-- tabsets -->
 
@@ -229,69 +149,6 @@ $(document).ready(function () {
 
 
 
-<style type="text/css">
-
-#TOC {
-  margin: 25px 0px 20px 0px;
-}
-@media (max-width: 768px) {
-#TOC {
-  position: relative;
-  width: 100%;
-}
-}
-
-@media print {
-.toc-content {
-  /* see https://github.com/w3c/csswg-drafts/issues/4434 */
-  float: right;
-}
-}
-
-.toc-content {
-  padding-left: 30px;
-  padding-right: 40px;
-}
-
-div.main-container {
-  max-width: 1200px;
-}
-
-div.tocify {
-  width: 20%;
-  max-width: 260px;
-  max-height: 85%;
-}
-
-@media (min-width: 768px) and (max-width: 991px) {
-  div.tocify {
-    width: 25%;
-  }
-}
-
-@media (max-width: 767px) {
-  div.tocify {
-    width: 100%;
-    max-width: none;
-  }
-}
-
-.tocify ul, .tocify li {
-  line-height: 20px;
-}
-
-.tocify-subheader .tocify-item {
-  font-size: 0.90em;
-}
-
-.tocify .list-group-item {
-  border-radius: 0px;
-}
-
-
-</style>
-
-
 
 </head>
 
@@ -301,57 +158,11 @@ div.tocify {
 <div class="container-fluid main-container">
 
 
-<!-- setup 3col/9col grid for toc_float and main content  -->
-<div class="row">
-<div class="col-xs-12 col-sm-4 col-md-3">
-<div id="TOC" class="tocify">
-</div>
-</div>
 
-<div class="toc-content col-xs-12 col-sm-8 col-md-9">
-
-
-
-
-<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="index.html">Jake Diamond</a>
-    </div>
-    <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li>
-  <a href="index.html">Home</a>
-</li>
-<li>
-  <a href="about.html">About Me</a>
-</li>
-<li>
-  <a href="research.html">Research</a>
-</li>
-<li>
-  <a href="business.html">Jake Diamond LLC</a>
-</li>
-<li>
-  <a href="./docs/CV.pdf">CV</a>
-</li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="http://github.com/jakediamond">
-    <span class="fa fa-github fa-lg"></span>
-     
-  </a>
-</li>
-      </ul>
-    </div><!--/.nav-collapse -->
-  </div><!--/.container -->
-</div><!--/.navbar -->
+<header class="site-header">
+<a class="site-name" href="index.html">Jake Diamond</a>
+<nav aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About me</a><a href="research.html">Research</a><a href="business.html">Consulting</a></nav>
+</header>
 
 <div id="header">
 
@@ -361,368 +172,512 @@ div.tocify {
 </div>
 
 
-<center>
-<a
-href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google
-Scholar</a><br />
-<a href="https://www.researchgate.net/profile/Jacob_Diamond">Research
-Gate</a><br />
-<a href="http://orcid.org/0000-0002-5392-5707">ORCID:
-0000-0002-5392-5707</a><br />
-All figures and results presented here are my own work, conducted (in <a
-href="https://www.r-project.org/">R</a>) in close collaboration with
-several colleagues and mentors.
-</center>
-<hr />
-<div id="anchorriveco" class="section level1">
-<h1><strong>River Ecology</strong></h1>
-<p>Over the 21st century, many rivers transformed from relatively low
-nutrient, low algal conditions to high nutrient, high algal conditions.
-Observing the negative effects of excess algae to our everyday
-activities, not to mention to river and ocean ecosystem health, many
-countries, states, and cities developed management plans to reduce
-nutrient loads to rivers. It can take a long time for these management
-plans to come to fruition, but there is recent indications that a shift
-is taking place.</p>
-<p>We studied such a shift in the Loire River. The Loire River is the
-longest river in France and is often referred to as one of the last
-“wild” rivers of Europe due to its relatively unobstructed path from
-mountains to sea.</p>
-<p>Through several lines of evidence, we show that the Loire River
-underwent a large and rapid shift from “eutrophic” conditions back to
-“oligotrophic” conditions in the early 2000’s. This has promising
-implications for how quickly freshwater ecosystems can respond to water
-quality and landscape management changes. Moreover, it provides a
-fascinating case study for understanding ecological processes in large
-rivers in the context of global change.</p>
-<div style="float:right;position: relative;margin-left: 20px">
-<p><img src="images/loire_conceptual_figure.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>You can read about it <a
-href="./docs/Diamond%20et%20al_2021_RegimeShiftsLoire.pdf">here</a>.</p>
-<p>This work is ongoing and we are continuing to investigate the causes
-and consequences of this ecosystem shift, particularly with respect to
-how carbon is processed and emitted to the atmosphere.</p>
-<p><strong>Co-authors:</strong><br />
-<a href="https://florentina-moatar.com/">Florentina Moatar</a><br />
-<a
-href="https://scholar.google.fr/citations?hl=en&amp;user=gZAJ_rQAAAAJ">Gilles
-Pinay</a><br />
-<a href="http://sfrc.ufl.edu/ecohydrology/">Matthew Cohen</a><br />
-<a
-href="https://scholar.google.fr/citations?user=W2Q6WuQAAAAJ&amp;hl=fr&amp;inst=13410158990364976897">Anthony
-Maire</a><br />
-<a href="https://www.unive.it/data/5115/13227245/pubb_anno">Enrico
-Bertuzzo</a></p>
-<p>Funding provided by the Water Agency of Loire Catchment AELB,
-Université de Tours, and EUR H2O’Lyon.</p>
-<hr />
-</div>
-<div id="ecohydrology" class="section level1">
-<h1><strong>Ecohydrology</strong></h1>
-<p><a href="https://en.wikipedia.org/wiki/Ecohydrology">Ecohydrology</a>
-explores the interonnectedness of biota and the hydrologic cycle through
-local and global feedbacks. This idea is so intriguing to me!</p>
-<div id="plant-water-interactions-and-disturbance"
-class="section level2">
-<h2>Plant-water Interactions and Disturbance</h2>
-<div style="float:left;position: relative;margin-right: 20px">
-<p><img src="images/concept_ash.jpg" width="300px" style="display:block;padding:1px; background-color:#000000" /><br />
-<img src="images/ash_fig5a.jpg" width="300px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>The invasive pest, the <a
-href="http://www.emeraldashborer.info/">emerald ash borer</a>, is
-causing large-scale loss of <a
-href="https://en.wikipedia.org/wiki/Fraxinus">ash trees</a> in North
-America, with important consequences for forestry, aesthetics, and
-ecosystem functioning. For the first chapter of my dissertation, I
-analyzed the ecohydrologic impacts of forest loss for the unique and
-beautiful <a href="https://en.wikipedia.org/wiki/Fraxinus_nigra">black
-ash</a> wetlands. We found three main things:</p>
-<ol style="list-style-type: decimal">
-<li>evapotranspiration (ET) limits the amount of water in black ash
-wetlands, and</li>
-<li>ET is uniquely determined by vegetation type and physical structure,
-but more interestingly,<br />
+<h1>
+Research
+</h1>
+<p>
+I study how water, plants, and chemistry interact in rivers and
+wetlands. My research ranges from the shape of the ground in a wetland
+to carbon cycling across river networks.
+</p>
+<p>
+Below are my journal publications, grouped by subject, with a short
+explanation of each paper.
+</p>
+<p class="profile-links">
+<a href="https://scholar.google.com/citations?user=BsBmdAUAAAAJ&amp;hl=en">Google
+Scholar</a> · <a href="https://orcid.org/0000-0002-5392-5707">ORCID</a>
+</p>
+<nav class="research-contents" aria-label="Research subjects">
+<ul>
+<li>
+<a href="#anchorriveco">River carbon and metabolism</a>
 </li>
-<li>when black ash is lost, a wetter and more marsh-like ecosystem
-persists, with implications for an <a
-href="https://en.wikipedia.org/wiki/Alternative_stable_state">alternative
-stable state</a>.</li>
-</ol>
-<p>You can read about it <a
-href="./docs/Diamond%20et%20al.%20(2018).pdf">here</a>.</p>
-<p><strong>Co-authors:</strong><br />
-<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel
-McLaughlin</a><br />
-<a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a><br />
-<a href="http://www.uvm.edu/rsenr/tonydamato/">Anthony D’Amato</a><br />
-<a href="https://www.nrs.fs.fed.us/people/Palik">Brian Palik</a></p>
-<p>Project funded by the Minnesota Environmental and Natural Resources
-Trust Fund, the USDA Forest Service Northern Research Station, and the
-Minnesota Forest Resources Council. Additional funding was provided by
-the Virginia Tech Forest Resources and Environmental Conservation
-department, the Virginia Tech Institute for Critical Technology and
-Applied Science, and the Virginia Tech William J. Dann Fellowship.</p>
-<hr />
-</div>
-<div id="anchormicro" class="section level2">
-<h2>Wetland Microtopography</h2>
-<div style="float:right;position: relative;margin-left: 20px">
-<p><img src="images/huho.jpg" width="300px" style="display:block;padding:1px; background-color:#000000" /><br />
-<img src="images/tls.jpg" width="300px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>Decades of research suggest that microtopography—changes in ground
-elevation on the order of 10–100 cm—is an important feature of
-ecosystems, and particularly wetlands, around the world. For example, we
-know that high points in a wetland (“hummocks”) have greater plant
-diversity, primary production, and nutrient concentrations than nearby
-low points (“hollows”). We also know that, under the right
-circumstances, spatial patterns of microtopography can emerge—a result
-of feedbacks that develop between biota, soil carbon, and hydrology.
-These observations, while interesting in their own right, also have
-important consequences for how we <a
-href="https://esajournals.onlinelibrary.wiley.com/doi/epdf/10.2307/1941447">scale</a>
-from point measurements to ecosystem and global estimates.</p>
-<p>I explored black ash wetland microtopography in detail as part of my
-dissertation work, and with the help of my collaborator, <a
-href="https://atticusstovall.wordpress.com/">Dr. Atticus Stovall</a>, we
-used a novel LiDAR method called Terrestrial Laser Scanning (TLS) to
-analyze the microtopographic pattern, structure, and ecological
-implications. In particular we:</p>
-<ol style="list-style-type: decimal">
-<li>published the algorithm to extract microtopography from TLS data.
-You can read about it <a
-href="./docs/Stovall%20et%20al_2019_TLS.pdf">here</a>.</li>
-<li>analyzed the geospatial structure of microtopography and found that
-it supports a model where plants create their own microtopography. You
-can read about it <a
-href="./docs/Diamond%20et%20al_Microtopo%20pattern.pdf">here</a>.</li>
-<li>related this structure to measured <a
-href="#anchorbgc">biogeochemical variables</a></li>
-</ol>
-<p>Finally, with the help of many other collaborators, we published the
-<a href="./docs/Diamond%20et%20al_2020_A%20little%20relief">first
-synthesis of wetland microtopography</a>: what it is, why it’s
-ecologically important, and how it comes to be!</p>
-<p><strong>Co-authors:</strong><br />
-<a href="https://atticusstovall.wordpress.com/">Atticus
-Stovall</a><br />
-<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel
-McLaughlin</a><br />
-<a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a></p>
-<hr />
-</div>
-</div>
-<div id="anchorbgc" class="section level1">
-<h1><strong>Biogeochemistry</strong></h1>
-<div id="headwater-stream-biogeochemistry" class="section level2">
-<h2>Headwater stream biogeochemistry</h2>
-<p>Headwater streams are the capillaries of river networks, comprising
-the majority (e.g., 70-85%) of the total stream length. Despite their
-small individual sizes, headwaters collectively contribute the majority
-of annual flow and nitrogen export to river networks. Importantly,
-headwaters also have a high sensitivity to disturbance, meaning that
-small changes to their upstream area have large effects on their
-hydrology and health of their biota.</p>
-<p>Under a changing climate, many headwater streams are becoming
-increasingly dry and warm. Given these changes, humans living in
-headwater environments are planning on either groundwater resources or
-increasing surface water storage (i.e., dams) for additional freshwater.
-Frustratingly, both of these solutions will likely exacerbate drying and
-warming of headwater streams. In this context, we sought to understand
-how headwater streams are responding to these changing drivers.</p>
-<div style="float:left;position: relative;margin-right: 20px">
-<p><img src="images/hypoxia_summary_all.png" width="300px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>In particular, we were interested in how drying and warming may
-affect the instances of stream hypoxia (dissolved oxygen at levels low
-enough to impair organisms). Hypoxia is a useful and easy to measure
-environmental indicator of ecosystem health, and is of practical
-interest to fishermen, swimmers, and casual stream passers-by alike.</p>
-<p>Across 78 sites over 2 years, we observed that drying, rewetting
-after drying, and storm events were strong predictors of hypoxia – each
-with characteristic patterns (timing, magnitude, and duration) of
-hypoxia. We further found that warmer, low-slope streams were the most
-susceptible to hypoxia events.</p>
-<p>You can read about it <a
-href="./docs/Diamond%20et%20al_2023_hypoxia.pdf">here</a>.  </p>
-<div style="float:right;position: relative;margin-left: 20px">
-<p><img src="images/gpp_area.PNG" width="300px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>Using the same dissolved oxygen data, we were able to also calculate
-the rates of gross primary production and ecosystem respiration of
-headwater streams across 5 different river networks. We observed that
-gross primary production increases predictably from the smallest to the
-largest streams, whereas ecosystem respiration was far more variable. We
-also observed that dissolved oxygen was a good predictor of dissolved
-organic carbon quality and denitrification potential.</p>
-<p>You can read about it <a
-href="./docs/Diamond_ecoindicators.pdf">here</a>.  </p>
-<p>As part of the same suite of studies, we also were able to
-investigate the synchrony of stream dissolved oxygen signals within and
-across river networks.</p>
-<p>You can read about it <a
-href="./docs/Diamond%20et%20al_2022_DOSynchrony.pdf">here</a>.  </p>
-<p><strong>Co-authors:</strong><br />
-<a
-href="https://www.ceab.csic.es/en/member/susanna-bernal-berenguer/">Susana
-Bernal</a><br />
-<a
-href="https://scholar.google.com/citations?user=qlaN2UoAAAAJ&amp;hl=en&amp;inst=13410158990364976897">David
-Lewis</a><br />
-<a href="https://florentina-moatar.com/">Florentina Moatar</a><br />
-<a
-href="https://scholar.google.fr/citations?hl=en&amp;user=gZAJ_rQAAAAJ">Gilles
-Pinay</a><br />
-<a href="http://sfrc.ufl.edu/ecohydrology/">Matthew Cohen</a><br />
-<a href="https://www.zarnetskelab.com/">Jay Zarnetske</a><br />
-<a href="https://www.annalupon.com/">Anna Lupon</a><br />
-<a href="https://www.researchgate.net/profile/Amine-Boukra-2">Amine
-Boukra</a><br />
-<a href="https://www.researchgate.net/profile/Matthieu-Masson">Matthieu
-Masson</a></p>
-<p>Funding provided by the Loire-Bretagne Water Agency and the
-Rhone-Mediteranee-Corse Water Agency.</p>
-<hr />
-</div>
-<div id="wetland-biogeochemistry" class="section level2">
-<h2>Wetland biogeochemistry</h2>
-<div style="float:left;position: relative;margin-right: 20px">
-<p><img src="images/shannon_sfs.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /><br />
-<img src="images/soil_chem.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>In wetland systems like the black ash swamps that we study, the
-ground surface is covered by an organic layer of <a
-href="https://en.wikipedia.org/wiki/Peat">peat</a> or muck. The height
-(or depth) of this layer is a function of the balance between primary
-production and soil respiration. We commonly observe local high points
-(“hummocks”) of this organic layer that are occupied by black ash trees,
-which led us to a hypothesis:</p>
-<p>H: black ash trees “create” their own hummocks through an
-evapoconcentration positive feedback loop, like so:</p>
-<ol style="list-style-type: decimal">
-<li>black ash tree transpiration draws in dissolved nutrients from the
-surrounding area, which leads to</li>
-<li>greater local primary production, which leads to</li>
-<li>buildup of root mass/soil organic matter and also greater
-transpiration, which leads to</li>
-<li>nutrient accumulation, and so on.</li>
-</ol>
-<p>As part of my dissertation work, I tested this hypothesis by
-investigating <a href="#anchormicro">microtopography</a> and wetland
-biogeochemical variables such as nutrients, vegetative diversity, and
-primary production. We found evidence supporting the evapoconcentration
-feedback loop where hummocks were hotspots for soil phosphorus (and the
-passive evapotranspiration tracer, chloride!), understory diversity, and
-overstory biomass.</p>
-<p>Are plants actively changing their environment to their own
-advantage? (<a href="https://www.youtube.com/watch?v=CrrSAc-vjG4">Could
-be!</a>) This is a very difficult question to answer, but this research
-may add another piece of evidence to our growing understanding of the
-agency of plants.</p>
-<p>You can read about it <a
-href="./docs/Diamond%20et%20al_2020_Microtopo%20organizing.pdf">here</a>.
- </p>
-<p>Using principles from <a
-href="https://www.researchgate.net/publication/228638056_Landscape_Ecology_What_Is_the_State_of_the_Science">landscape
-ecology</a>, we also used spatial analysis of microtopgraphic features
-to evaluate evidence of positive plant-water-soil feedbacks
-(“autogenesis”), which you can read about <a
-href="./docs/Diamond%20et%20al_Microtopo%20pattern.pdf">here</a>.  </p>
-<p>For a more complete discussion on wetland microtopgraphy in general,
-you can read our synthesis here <a
-href="./docs/Diamond%20et%20al_2020_A%20little%20relief.pdf">here</a>.
- </p>
-<p><strong>Co-authors:</strong><br />
-<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel
-McLaughlin</a><br />
-<a href="https://mn.gov/frc/rob-slesak.html">Rob Slesak</a><br />
-<a href="https://atticusstovall.wordpress.com/">Atticus Stovall</a></p>
-<hr />
-</div>
-</div>
-<div id="hydrology" class="section level1">
-<h1><strong>Hydrology</strong></h1>
-<div id="watershed-hydrochemistry" class="section level2">
-<h2>Watershed Hydrochemistry</h2>
-<div style="float:right;position: relative;margin-left: 20px">
-<p><img src="images/cq_fig1.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>Since the early days of watershed science, researchers have been
-fascinated with the concentration-discharge (C-Q) relationships of
-rivers and streams. The idea is simple enough: how does the chemical
-concentration of a material (e.g., nitrogen or sediment) change with the
-amount of water flowing in the river (aka “discharge”)? Perhaps
-surprisingly, these C-Q relationships can tell us quite a bit about how,
-when, and where water is routed through, and stored by watersheds.</p>
-<p>For my master’s thesis, I analyzed long-term measurements of
-concentration and discharge for rivers and streams across Florida. I
-found consistent patterns in C-Q relationships, where the C-Q shape
-depended entirely on the type of material under consideration (e.g.,
-organically-derived <em>versus</em> rock-derived), implying common
-hydrologic storage and transport across systems, regardless of size or
-location. Interestingly, I also found consistent “breaks” in many of the
-C-Q relationships, implying a watershed <em>switching behavior</em> in
-the source location for river water (e.g., deep aquifer storage
-<em>versus</em> shallow soil horizons). This information improves our
-understanding of the fate and transport of materials through watersheds,
-with implications for <a
-href="https://en.wikipedia.org/wiki/Total_maximum_daily_load">predicting
-loads to downstream waterbodies</a>.</p>
-<p>You can read about it <a
-href="./docs/Diamond%20and%20Cohen_2018.pdf">here</a>.</p>
-<p><strong>Co-authors:</strong><br />
-<a href="http://sfrc.ufl.edu/ecohydrology/">Matt Cohen</a></p>
-<p>Project funded by the National Council for Air and Stream
-Improvement, the Florida Forest Service, and the National Institute of
-Food and Agriculture (NIFA) via CRIS project FLA‐FOR‐ 005284.</p>
-<hr />
-</div>
-<div id="wetlandscape-connectivity" class="section level2">
-<h2>Wetlandscape Connectivity</h2>
-<div style="float:left;position: relative;margin-right: 20px">
-<p><img src="images/spectrum_facet.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /><br />
-<img src="images/bicy_monthly.jpg" width="400px" style="display:block;padding:1px; background-color:#000000" /></p>
-</div>
-<p>A wetlandscape is a complex of all the wetlands within a drainage
-network. Most of the time, wetlands in a wetlandscape are disconnected
-from each other—they are geographically isolated. However, the timing,
-magnitude, and frequency of connections among wetlands in a wetlandscape
-has important implications for <a
-href="https://www.epa.gov/wotus-rule">policy and regulations</a>,
-ecosystem functioning, and also <a
-href="https://en.wikipedia.org/wiki/Ecosystem_services">ecosystem
-services</a>.</p>
-<p>We used high-frequency measurements of wetland stage (i.e.,
-water-level) in geographically-isolated <a
-href="https://www.google.com/search?q=cypress+domes&amp;source=lnms&amp;tbm=isch&amp;sa=X&amp;ved=0ahUKEwia6_2Yjs_cAhVLj1kKHbB5CFEQ_AUICigB&amp;biw=1920&amp;bih=898">cypress
-domes</a> in <a
-href="https://www.google.com/maps/@26.0346239,-81.0811382,3853m/data=!3m1!1e3">Big
-Cypress National Preserve</a> in southwest Florida to develop a simple
-methodology for extracting:</p>
-<ol style="list-style-type: decimal">
-<li>elevation thresholds of wetlandscape connectivity,</li>
-<li>frequencies and timings of wetlandscape connectivity (i.e., when and
-how often are the wetlands connected to each other), and</li>
-<li>magnitudes of hydrologic exchange among wetlands</li>
-</ol>
-<p>You can read about it <a
-href="./docs/McLaughlin%20et%20al_2019_Wetland%20connectivity.pdf">here</a></p>
-<p><strong>Co-authors:</strong><br />
-<a href="https://frec.vt.edu/people/McLaughlin.html">Daniel
-McLaughlin</a><br />
-<a href="http://sfrc.ufl.edu/ecohydrology/">Matt Cohen</a><br />
-<a href="https://www.researchgate.net/profile/Carlos_Quintero24">Carlos
-Quintero</a><br />
-<a href="https://heffernanlab.weebly.com/">Jim Heffernan</a></p>
-</div>
-</div>
+<li>
+<a href="#headwater-stream-biogeochemistry">Water quality and river
+networks</a>
+</li>
+<li>
+<a href="#stream-temperature">Stream temperature</a>
+</li>
+<li>
+<a href="#anchormicro">Wetland ecology and microtopography</a>
+</li>
+<li>
+<a href="#watershed-hydrochemistry">Watershed hydrology</a>
+</li>
+</ul>
+</nav>
+<section class="research-section" aria-labelledby="anchorriveco">
+<h2 id="anchorriveco">
+River carbon and metabolism
+</h2>
+<p>
+How much carbon do rivers process themselves, and how much arrives from
+the surrounding landscape? My work on the Loire and on oxygen–carbon
+models separates these contributions. Changes in algae and aquatic
+plants matter, but flow, groundwater, and carbonate chemistry can change
+the carbon budget just as much.
+</p>
+<ul class="papers">
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1029/2024jg008401">A Coupled O2‐CO2 Model
+for Joint Estimation of Stream Metabolism, O‐C Stoichiometry, and
+Inorganic Carbon Fluxes</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Bertuzzo, E. (2025). <i>Journal of Geophysical Research:
+Biogeosciences 130, e2024JG008401</i>.
+</p>
+<p class="paper-summary">
+A model combining oxygen, inorganic carbon, and alkalinity to estimate
+metabolism and carbon fluxes together. It allows oxygen–carbon ratios to
+vary instead of assuming a fixed conversion.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1002/lno.70016">Inorganic carbon dynamics
+and their relation to autotrophic community regime shift over three
+decades in a large, alkaline river</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Truong, A. N.; Abril, G.; Bertuzzo, E.; Chanudet, V.;
+Lamouroux, R.; Moatar, F. (2025). <i>Limnology and Oceanography 70,
+1122-1136</i>.
+</p>
+<p class="paper-summary">
+Three decades of Loire River data show how discharge, carbonate
+chemistry, and changes in the autotrophic community affect inorganic
+carbon. Oxygen-based metabolism alone does not describe the full carbon
+budget.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.5194/bg-22-4923-2025">Multidecadal trends in
+CO₂ evasion and aquatic metabolism in a large temperate river</a>
+</h3>
+<p class="citation">
+Nguyen, A. T.; Abril, G.; Diamond, J. S.; Lamouroux, R.; Martinet, C.;
+Moatar, F. (2025). <i>Biogeosciences 22, 4923-4951</i>.
+</p>
+<p class="paper-summary">
+A 32-year record links declining Loire CO₂ emissions to changes in
+groundwater contributions. Catchment inputs help explain the long-term
+trend alongside changes in river metabolism.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1002/lno.11789">Metabolic regime shifts and
+ecosystem state changes are decoupled in a large river</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Moatar, F.; Cohen, M. J.; Poirel, A.; Martinet, C.;
+Maire, A.; Pinay, G. (2022). <i>Limnology and Oceanography 67,
+S54–S70</i>.
+</p>
+<p class="paper-summary">
+The Loire’s shift from phytoplankton to macrophytes did not produce an
+equally abrupt change in metabolism. Production and respiration changed
+on different timescales from the visible ecological state.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20et%20al_2021_RegimeShiftsLoire.pdf">PDF</a>
+</p>
+</li>
+</ul>
+</section>
+<section class="research-section" aria-labelledby="headwater-stream-biogeochemistry">
+<span id="anchorbgc"></span>
+<h2 id="headwater-stream-biogeochemistry">
+Water quality and river networks
+</h2>
+<p>
+Dissolved oxygen connects ecosystem processes to water quality. Across
+this work, a recurring finding is that timing and location matter:
+drying, storms, light, and wastewater inputs can produce very different
+conditions within the same river network. Long records and measurements
+across multiple sites help capture what occasional sampling misses.
+</p>
+<ul class="papers">
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.5194/essd-17-3411-2025">OLIGOTREND, a global
+database of multi-decadal chlorophyll a and water quality time series
+for rivers, lakes, and estuaries</a>
+</h3>
+<p class="citation">
+Minaudo, C.; Abonyi, A.; Alcaraz, C.; Diamond, J.; Howden, N. J. K.;
+Rode, M.; Romero, E.; Thieu, V.; Worrall, F.; Zhang, Q.; Benito, X.
+(2025). <i>Earth System Science Data 17, 3411-3430</i>.
+</p>
+<p class="paper-summary">
+OLIGOTREND brings together 4.3 million observations from 1,894 locations
+to study long-term changes in chlorophyll and water quality. Declining
+nutrients do not always lead to matching declines in algae.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1029/2024jg008369">Alternating Drying and
+Flowing Phases Control Stream Metabolism Through Short‐ and Long‐Term
+Effects: Insights From a River Network</a>
+</h3>
+<p class="citation">
+López‐Rojo, N.; Sarremejane, R.; Foulquier, A.; Singer, G.; Diamond, J.;
+Rioux, D.; Miquel, C.; Mulero, S.; Lionnet, C.; Peñas, F. J.; Rodeles,
+A. A.; Datry, T. (2025). <i>Journal of Geophysical Research:
+Biogeosciences 130, e2024JG008369</i>.
+</p>
+<p class="paper-summary">
+Measurements across 20 reaches show how drying and rewetting affect
+stream production and respiration. The effects depend on both recent
+conditions and the duration of earlier dry periods.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1016/j.ecolind.2023.109987">Hypoxia is
+common in temperate headwaters and driven by hydrological extremes</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Moatar, F.; Recoura-Massaquant, R.; Chaumot, A.;
+Zarnetske, J.; Valette, L.; Pinay, G. (2023). <i>Ecological Indicators
+147, 109987</i>.
+</p>
+<p class="paper-summary">
+Low oxygen occurred at 51 of 78 headwater sites. Drying, rewetting, and
+storms were major drivers, with warm, low-gradient streams particularly
+vulnerable.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20et%20al_2023_hypoxia.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1002/lno.12271">Light and hydrologic
+connectivity drive dissolved oxygen synchrony in stream networks</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Pinay, G.; Bernal, S.; Cohen, M. J.; Lewis, D.; Lupon,
+A.; Zarnetske, J.; Moatar, F. (2023). <i>Limnology and Oceanography 68,
+322-335</i>.
+</p>
+<p class="paper-summary">
+Across five catchments, shared light conditions and hydrologic
+connectivity explained much of the synchrony in dissolved oxygen. This
+helps identify when one site can represent conditions elsewhere in a
+network.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20et%20al_2022_DOSynchrony.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1016/j.ecolind.2021.108233">Stream network
+variation in dissolved oxygen: Metabolism proxies and biogeochemical
+controls</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Bernal, S.; Boukra, A.; Cohen, M. J.; Lewis, D.; Masson,
+M.; Moatar, F.; Pinay, G. (2021). <i>Ecological Indicators 131,
+108233</i>.
+</p>
+<p class="paper-summary">
+Production increased predictably with stream size, while respiration
+varied more widely. Dissolved oxygen measurements also provided
+information about organic matter quality and denitrification potential.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond_ecoindicators.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1371/journal.pone.0256292">Large
+spatiotemporal variability in metabolic regimes for an urban stream
+draining four wastewater treatment plants with implications for
+dissolved oxygen monitoring</a>
+</h3>
+<p class="citation">
+Ledford, S. H.; Diamond, J. S.; Toran, L. (2021). <i>PLOS ONE 16,
+e0256292</i>.
+</p>
+<p class="paper-summary">
+A year of measurements around four wastewater treatment plants revealed
+strong seasonal and local differences in metabolism. Monitoring location
+and timing can substantially change the apparent effect of an outfall.
+</p>
+</li>
+</ul>
+</section>
+<section class="research-section" aria-labelledby="stream-temperature">
+<h2 id="stream-temperature">
+Stream temperature
+</h2>
+<p>
+Air temperature alone is a poor guide to the temperatures that river
+organisms experience. These studies examine how flow, groundwater,
+shade, dams, and ponds shape thermal conditions, from individual
+impoundments to regional and national river networks.
+</p>
+<ul class="papers">
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.5194/hess-26-2583-2022">Regional,
+multi-decadal analysis on the Loire River basin reveals that stream
+temperature increases faster than air temperature</a>
+</h3>
+<p class="citation">
+Seyedhashemi, H.; Vidal, J. P.; Diamond, J. S.; Thiéry, D.; Monteil, C.;
+Hendrickx, F.; Maire, A.; Moatar, F. (2022). <i>Hydrology and Earth
+System Sciences 26, 2583-2603</i>.
+</p>
+<p class="paper-summary">
+A reconstruction of Loire basin temperatures from 1963–2019 found that
+many streams warmed faster than the air. Declining flows contributed to
+warming, while riparian shade moderated it in small streams.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.5194/hess-26-3477-2022">Spatial
+extrapolation of stream thermal peaks using heterogeneous time series at
+a national scale</a>
+</h3>
+<p class="citation">
+Beaufort, A.; Diamond, J. S.; Sauquet, E.; Moatar, F. (2022).
+<i>Hydrology and Earth System Sciences 26, 3477-3495</i>.
+</p>
+<p class="paper-summary">
+Records from about 1,700 stations were used to estimate summer
+temperature peaks across France. The approach combines uneven monitoring
+records with information about local stream conditions.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1016/j.scitotenv.2020.142667">Thermal
+signatures identify the influence of dams and ponds on stream
+temperature at the regional scale</a>
+</h3>
+<p class="citation">
+Seyedhashemi, H.; Moatar, F.; Vidal, J. P.; Diamond, J. S.; Beaufort,
+A.; Chandesris, A.; Valette, L. (2021). <i>Science of The Total
+Environment 766, 142667</i>.
+</p>
+<p class="paper-summary">
+Five indicators derived from stream and air temperatures distinguished
+dam, pond, and relatively natural thermal regimes across 330 monitoring
+stations in the Loire basin.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.5194/hess-23-4509-2019">Small dams alter
+thermal regimes of downstream water</a>
+</h3>
+<p class="citation">
+Chandesris, A.; Van Looy, K.; Diamond, J. S.; Souchon, Y. (2019).
+<i>Hydrology and Earth System Sciences 23, 4509-4525</i>.
+</p>
+<p class="paper-summary">
+Monitoring downstream of 11 small dams showed different effects on
+minimum and maximum temperatures. Impoundment area and water residence
+time helped explain those differences.
+</p>
+</li>
+</ul>
+</section>
+<section class="research-section" aria-labelledby="anchormicro">
+<span id="wetland-biogeochemistry"></span><span
+id="plant-water-interactions-and-disturbance"></span><span
+id="ecohydrology"></span>
+<h2 id="anchormicro">
+Wetland ecology and microtopography
+</h2>
+<p>
+Small differences in ground elevation can organize an entire wetland. My
+work in black ash wetlands connects hummocks and hollows to vegetation,
+soil chemistry, and water levels, and asks how these relationships
+change when trees are lost to emerald ash borer.
+</p>
+<ul class="papers">
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1002/wat2.1493">A little relief: Ecological
+functions and autogenesis of wetland microtopography</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Epstein, J. M.; Cohen, M. J.; McLaughlin, D. L.; Hsueh,
+Y.; Keim, R. F.; Duberstein, J. A. (2021). <i>WIREs Water 8, e1493</i>.
+</p>
+<p class="paper-summary">
+A synthesis of how wetland microtopography forms and persists, and why
+it matters for water storage, carbon cycling, and biodiversity. It
+connects plant–soil–water feedbacks with the development of hummocks and
+hollows.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20et%20al_2020_A%20little%20relief.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1002/hyp.14014">Hydrologic variability in
+black ash wetlands: Implications for vulnerability to emerald ash
+borer</a>
+</h3>
+<p class="citation">
+Cianciolo, T. R.; Diamond, J. S.; McLaughlin, D. L.; Slesak, R. A.;
+D'Amato, A. W.; Palik, B. J. (2021). <i>Hydrological Processes 35,
+e14014</i>.
+</p>
+<p class="paper-summary">
+Water-level records from 15 black ash wetlands show why vulnerability to
+tree loss differs among sites. Existing wetness and the vegetation that
+replaces ash help determine the hydrologic response.
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.5194/bg-17-901-2020">Microtopography is a
+fundamental organizing structure of vegetation and soil chemistry in
+black ash wetlands</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; McLaughlin, D. L.; Slesak, R. A.; Stovall, A. (2020).
+<i>Biogeosciences 17, 901-915</i>.
+</p>
+<p class="paper-summary">
+Fine-resolution elevation measurements link hummocks to differences in
+vegetation and soil chemistry across ten wetlands. The ecological
+contrasts between hummocks and hollows were stronger at wetter sites.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20et%20al_2020_Microtopo%20organizing.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1016/j.rse.2019.111271">Quantifying wetland
+microtopography with terrestrial laser scanning</a>
+</h3>
+<p class="citation">
+Stovall, A. E.; Diamond, J. S.; Slesak, R. A.; McLaughlin, D. L.;
+Shugart, H. (2019). <i>Remote Sensing of Environment 232, 111271</i>.
+</p>
+<p class="paper-summary">
+Develops a terrestrial laser scanning approach for measuring wetland
+microtopography, making it possible to study small elevation differences
+across whole plots.
+</p>
+<p class="paper-links">
+<a href="docs/Stovall%20et%20al_2019_TLS.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.5194/hess-23-5069-2019">Pattern and
+structure of microtopography implies autogenic origins in forested
+wetlands</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; McLaughlin, D. L.; Slesak, R. A.; Stovall, A. (2019).
+<i>Hydrology and Earth System Sciences 23, 5069-5088</i>.
+</p>
+<p class="paper-summary">
+Hummock heights and spatial patterns across ten black ash wetlands
+support the idea that vegetation helps create its own elevated growing
+sites through feedbacks with water and soil.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20et%20al_Microtopo%20pattern.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1016/j.jenvman.2018.05.082">Forested versus
+herbaceous wetlands: Can management mitigate ecohydrologic regime shifts
+from invasive emerald ash borer?</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; McLaughlin, D. L.; Slesak, R. A.; D'Amato, A. W.; Palik,
+B. J. (2018). <i>Journal of Environmental Management 222, 436-446</i>.
+</p>
+<p class="paper-summary">
+Examines the ecohydrologic consequences of black ash loss and possible
+management responses. Differences in water use between forested and
+herbaceous wetlands help explain the persistence of wetter conditions
+after tree loss.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20et%20al.%20%282018%29.pdf">PDF</a>
+</p>
+</li>
+</ul>
+</section>
+<section class="research-section" aria-labelledby="watershed-hydrochemistry">
+<span id="wetlandscape-connectivity"></span><span id="hydrology"></span>
+<h2 id="watershed-hydrochemistry">
+Watershed hydrology
+</h2>
+<p>
+Water movement determines when wetlands connect and which solutes reach
+rivers. These studies use water levels and concentration–discharge
+relationships to identify changes in flow paths that are difficult to
+see from occasional measurements.
+</p>
+<ul class="papers">
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1029/2018wr024652">Wetland Connectivity
+Thresholds and Flow Dynamics From Stage Measurements</a>
+</h3>
+<p class="citation">
+McLaughlin, D. L.; Diamond, J. S.; Quintero, C.; Heffernan, J.; Cohen,
+M. J. (2019). <i>Water Resources Research 55, 6018-6032</i>.
+</p>
+<p class="paper-summary">
+A water-budget method uses water-level records to estimate wetland
+connectivity thresholds and flows. In five Big Cypress wetlands, much of
+the export occurred during surface-water connections.
+</p>
+<p class="paper-links">
+<a href="docs/McLaughlin%20et%20al_2019_Wetland%20connectivity.pdf">PDF</a>
+</p>
+</li>
+<li class="paper">
+<h3>
+<a href="https://doi.org/10.1002/hyp.11424">Complex patterns of
+catchment solute–discharge relationships for coastal plain rivers</a>
+</h3>
+<p class="citation">
+Diamond, J. S.; Cohen, M. J. (2018). <i>Hydrological Processes 32,
+388-401</i>.
+</p>
+<p class="paper-summary">
+Across 44 Florida rivers, solute concentrations often changed their
+relationship with discharge near median flow. A single power-law
+relationship can miss these shifts and bias estimates of solute export.
+</p>
+<p class="paper-links">
+<a href="docs/Diamond%20and%20Cohen_2018.pdf">PDF</a>
+</p>
+</li>
+</ul>
+</section>
+<!-- Preserve incoming links to earlier research sections. -->
+
+<footer class="site-footer"><span>Jake Diamond</span><a href="#">Back to top ↑</a></footer>
+<script src="site.js" defer></script>
 
 
-
-</div>
-</div>
 
 </div>
 
@@ -755,35 +710,6 @@ $(document).ready(function () {
 
 <!-- code folding -->
 
-<script>
-$(document).ready(function ()  {
-
-    // temporarily add toc-ignore selector to headers for the consistency with Pandoc
-    $('.unlisted.unnumbered').addClass('toc-ignore')
-
-    // move toc-ignore selectors from section div to header
-    $('div.section.toc-ignore')
-        .removeClass('toc-ignore')
-        .children('h1,h2,h3,h4,h5').addClass('toc-ignore');
-
-    // establish options
-    var options = {
-      selectors: "h1,h2",
-      theme: "bootstrap3",
-      context: '.toc-content',
-      hashGenerator: function (text) {
-        return text.replace(/[.\\/?&!#<>]/g, '').replace(/\s/g, '_');
-      },
-      ignoreSelector: ".toc-ignore",
-      scrollTo: 0
-    };
-    options.showAndHide = true;
-    options.smoothScroll = true;
-
-    // tocify
-    var toc = $("#TOC").tocify(options).data("toc-tocify");
-});
-</script>
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
